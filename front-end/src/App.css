@@ -6,17 +6,25 @@ body, #root{
   height: 100vh;
 }
 
-.homePageAnnouncement{
+.pageContainer{
   display: flex;
   height: 100vh;
-  height: max-content;
+  flex-direction: column;
+}
+
+.componentToShowBlock{
+  display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
 }
 
 .alignNavbarRight{
-  display: flex;
   justify-content: end;
+}
+
+.tableStyle{
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
