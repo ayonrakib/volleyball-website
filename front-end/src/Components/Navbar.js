@@ -19,7 +19,7 @@ export default function NavBar(props) {
               <NavDropdown.Item href="#Profiles">
                 Profiles
               </NavDropdown.Item>
-              <NavDropdown.Item href="#Rules">
+              <NavDropdown.Item onClick={props.showRulesPage}>
                 Rules
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">
