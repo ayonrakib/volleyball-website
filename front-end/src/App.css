@@ -2,9 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, #root{
+  height: 100vh;
+}
+
+.homePageAnnouncement{
+  display: flex;
+  height: 100vh;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.alignNavbarRight{
+  display: flex;
+  justify-content: end;
 }
 
 @media (prefers-reduced-motion: no-preference) {
