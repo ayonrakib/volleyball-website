@@ -1,10 +1,15 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Pages/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      Hello World!
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/home" element={<Home />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
