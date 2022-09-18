@@ -1,7 +1,7 @@
 import PlayerCard from '../Components/Card';
 import playersImagesToNames from '../Players/Players-2022';
 
-export default function Profiles() {
+export default function Players() {
   let playersCardBlock = [];
   for(var index = 0; index < 111; index++){
     console.log(`index is ${index}`)

@@ -16,8 +16,8 @@ export default function NavBar(props) {
               <NavDropdown.Item onClick={props.assignSchedulePage}>
                 Schedule
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showProfilesPage}>
-                Profiles
+              <NavDropdown.Item onClick={props.showPlayersPage}>
+                Players
               </NavDropdown.Item>
               <NavDropdown.Item onClick={props.showCaptainsPage}>
                 Captains

@@ -3,7 +3,7 @@ import { useReducer } from 'react';
 import WelcomeMessage from './WelcomeMessage';
 import Schedule from './Schedule';
 import Rules from './Rules';
-import Profiles from './Profiles';
+import Players from './Players';
 import Captains from './Captains';
 
 function reducer(stateDictionary, action){
@@ -15,9 +15,9 @@ function reducer(stateDictionary, action){
         case "showRules":
             console.log("came inside reducer showrules!")
             return {...stateDictionary, componentToLoad : action.data.rulesComponent}
-        case "showProfiles":
-            console.log("came inside reducer showProfiles!")
-            return {...stateDictionary, componentToLoad : action.data.profilesComponent}
+        case "showPlayers":
+            console.log("came inside reducer showPlayers!")
+            return {...stateDictionary, componentToLoad : action.data.playersComponent}
         case "showCaptains":
             console.log("came inside reducer showCaptains!")
             return {...stateDictionary, componentToLoad : action.data.captainsComponent}
@@ -39,9 +39,9 @@ export default function Home(){
         dispatch({ name : "showRules", data : {rulesComponent:<Rules/>}})
     }
 
-    function showProfilesPage(){
+    function showPlayersPage(){
         console.log("came inside showRulePage method!")
-        dispatch({ name : "showProfiles", data : {profilesComponent:<Profiles/>}})
+        dispatch({ name : "showPlayers", data : {playersComponent:<Players/>}})
     }
 
     function showCaptainsPage(){
@@ -63,7 +63,7 @@ export default function Home(){
                     assignSchedulePage={assignSchedulePage} 
                     showWelcomeMessage={showWelcomeMessage} 
                     showRulesPage={showRulesPage} 
-                    showProfilesPage={showProfilesPage}
+                    showPlayersPage={showPlayersPage}
                     showCaptainsPage={showCaptainsPage}
                 />
             </div>
