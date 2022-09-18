@@ -1,6 +1,6 @@
 import NavBar from '../Components/Navbar';
 import { useReducer } from 'react';
-import WelcomeMessage from './WelcomeMessage';
+import WelcomePage from './WelcomePage';
 import Schedule from './Schedule';
 import Rules from './Rules';
 import Players from './Players';
@@ -27,7 +27,7 @@ function reducer(stateDictionary, action){
 }
 
 export default function Home(){
-    const [stateDictionary, dispatch] = useReducer(reducer, {componentToLoad: <WelcomeMessage/>} );
+    const [stateDictionary, dispatch] = useReducer(reducer, {componentToLoad: <WelcomePage/>} );
 
     function assignSchedulePage(){
         console.log("came inside assignSchedulePage method!")
@@ -49,9 +49,9 @@ export default function Home(){
         dispatch({ name : "showCaptains", data : {captainsComponent:<Captains/>}})
     }
 
-    function showWelcomeMessage(){
+    function showWelcomePage(){
         console.log("came inside showWelcomeMessage method!")
-        dispatch({ name : "showWelcomeMessage", data : {showWelcomeMessage:<WelcomeMessage/>}})
+        dispatch({ name : "showWelcomeMessage", data : {showWelcomeMessage:<WelcomePage/>}})
     }
 
 
@@ -61,7 +61,7 @@ export default function Home(){
             <div>
                 <NavBar 
                     assignSchedulePage={assignSchedulePage} 
-                    showWelcomeMessage={showWelcomeMessage} 
+                    showWelcomePage={showWelcomePage} 
                     showRulesPage={showRulesPage} 
                     showPlayersPage={showPlayersPage}
                     showCaptainsPage={showCaptainsPage}
