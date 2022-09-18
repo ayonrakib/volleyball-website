@@ -19,6 +19,9 @@ export default function NavBar(props) {
               <NavDropdown.Item onClick={props.showProfilesPage}>
                 Profiles
               </NavDropdown.Item>
+              <NavDropdown.Item onClick={props.showCaptainsPage}>
+                Captains
+              </NavDropdown.Item>
               <NavDropdown.Item onClick={props.showRulesPage}>
                 Rules
               </NavDropdown.Item>

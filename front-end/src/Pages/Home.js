@@ -4,6 +4,7 @@ import WelcomeMessage from './WelcomeMessage';
 import Schedule from './Schedule';
 import Rules from './Rules';
 import Profiles from './Profiles';
+import Captains from './Captains';
 
 function reducer(stateDictionary, action){
     switch(action.name){
@@ -15,8 +16,11 @@ function reducer(stateDictionary, action){
             console.log("came inside reducer showrules!")
             return {...stateDictionary, componentToLoad : action.data.rulesComponent}
         case "showProfiles":
-            console.log("came inside reducer showrules!")
+            console.log("came inside reducer showProfiles!")
             return {...stateDictionary, componentToLoad : action.data.profilesComponent}
+        case "showCaptains":
+            console.log("came inside reducer showCaptains!")
+            return {...stateDictionary, componentToLoad : action.data.captainsComponent}
         default:
             return;
     }
@@ -40,6 +44,11 @@ export default function Home(){
         dispatch({ name : "showProfiles", data : {profilesComponent:<Profiles/>}})
     }
 
+    function showCaptainsPage(){
+        console.log("came inside showCaptainsPage method!")
+        dispatch({ name : "showCaptains", data : {captainsComponent:<Captains/>}})
+    }
+
     function showWelcomeMessage(){
         console.log("came inside showWelcomeMessage method!")
         dispatch({ name : "showWelcomeMessage", data : {showWelcomeMessage:<WelcomeMessage/>}})
@@ -55,6 +64,7 @@ export default function Home(){
                     showWelcomeMessage={showWelcomeMessage} 
                     showRulesPage={showRulesPage} 
                     showProfilesPage={showProfilesPage}
+                    showCaptainsPage={showCaptainsPage}
                 />
             </div>
 
