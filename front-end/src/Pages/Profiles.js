@@ -102,19 +102,20 @@ export default function Profiles() {
     "96"	:	"Saiful Islam (Niton)"	,
     "97"	:	"Ehtesham Hoq"	,
     "98"	:	"Syed Zahed Aziz"	,
-    "99"	:	"Iqbal Mahmud"	,
-    "100"	:	"Mohammad Samad"	,
-    "101"	:	"Ezaz (Rana)"	,
-    "102"	:	"M.M. Hasnat"	,
-    "103"	:	"Md Noor E Alam"	,
-    "104"	:	"Hasan Chowdhury"	,
-    "105"	:	"Zahid Hasan"	,
-    "106"	:	"Kollol Arefin"	,
-    "107"	:	"Bahar"	,
-    "108"	:	"Sazal Islam"	,
-    "109"	:	"Mohammad Rumi"    
+    "99"	:	"Mohammad Samad"	,
+    "100"	:	"Ezaz (Rana)"	,
+    "101"	:	"M.M. Hasnat"	,
+    "102"	:	"Md Noor E Alam"	,
+    "103"	:	"Hasan Chowdhury"	,
+    "104"	:	"Zahid Hasan"	,
+    "105"	:	"Kollol Arefin"	,
+    "106"	:	"Bahar"	,
+    "107"	:	"Sazal Islam"	,
+    "108"	:	"Mohammad Rumi",
+    "109" : "Ahsan Islam",
+    "110" : "Sheik Mohammad Nomaan"    
   }
-  for(var index = 0; index < 110; index++){
+  for(var index = 0; index < 111; index++){
     console.log(`index is ${index}`)
     playersCardBlock.push(
                             <div style={{"justifyContent":"space-between", "marginBottom":"30px"}}>
