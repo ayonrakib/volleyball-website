@@ -3,6 +3,7 @@ import { useReducer } from 'react';
 import WelcomeMessage from './WelcomeMessage';
 import Schedule from './Schedule';
 import Rules from './Rules';
+import Profiles from './Profiles';
 
 function reducer(stateDictionary, action){
     switch(action.name){
@@ -13,6 +14,9 @@ function reducer(stateDictionary, action){
         case "showRules":
             console.log("came inside reducer showrules!")
             return {...stateDictionary, componentToLoad : action.data.rulesComponent}
+        case "showProfiles":
+            console.log("came inside reducer showrules!")
+            return {...stateDictionary, componentToLoad : action.data.profilesComponent}
         default:
             return;
     }
@@ -31,6 +35,11 @@ export default function Home(){
         dispatch({ name : "showRules", data : {rulesComponent:<Rules/>}})
     }
 
+    function showProfilesPage(){
+        console.log("came inside showRulePage method!")
+        dispatch({ name : "showProfiles", data : {profilesComponent:<Profiles/>}})
+    }
+
     function showWelcomeMessage(){
         console.log("came inside showWelcomeMessage method!")
         dispatch({ name : "showWelcomeMessage", data : {showWelcomeMessage:<WelcomeMessage/>}})
@@ -41,7 +50,12 @@ export default function Home(){
     return(
         <div className='pageContainer'>
             <div>
-                <NavBar assignSchedulePage={assignSchedulePage} showWelcomeMessage={showWelcomeMessage} showRulesPage={showRulesPage}/>
+                <NavBar 
+                    assignSchedulePage={assignSchedulePage} 
+                    showWelcomeMessage={showWelcomeMessage} 
+                    showRulesPage={showRulesPage} 
+                    showProfilesPage={showProfilesPage}
+                />
             </div>
 
             <div className='componentToShowBlock container'>

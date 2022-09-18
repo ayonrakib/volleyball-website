@@ -16,13 +16,13 @@ export default function NavBar(props) {
               <NavDropdown.Item onClick={props.assignSchedulePage}>
                 Schedule
               </NavDropdown.Item>
-              <NavDropdown.Item href="#Profiles">
+              <NavDropdown.Item onClick={props.showProfilesPage}>
                 Profiles
               </NavDropdown.Item>
               <NavDropdown.Item onClick={props.showRulesPage}>
                 Rules
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item>
                 Score
               </NavDropdown.Item>
             </NavDropdown>
