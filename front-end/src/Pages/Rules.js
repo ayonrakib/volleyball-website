@@ -43,8 +43,8 @@ export default function Rules(){
             </div>
     
             <div className="marginVertical">
-                <b>5.</b> If the score is 24-24 by any case, the deciding factor would be whoever wins by back-to-back two points. 
-            If a team loses the advantage and gets drawn again, the same situation applies-winning by two back-to-back points.
+                <b>5.</b> If the score is 24-24 by any case, the deciding factor would be whoever gets to 25 first. This is made to 
+                finish the games within the allotted times from the venue.
             </div>
            
             <div className="marginVertical">
@@ -78,7 +78,7 @@ export default function Rules(){
             </div>
             
             <div className="marginVertical">
-                <b>10.</b> The server’s feet may not touch the court lines until the ball is released (while serving);
+                <b>10.</b> The server’s feet may not touch/cross the court lines until the ball is released (while serving);
                 otherwise his team will lose a point.
             </div>
 
@@ -103,9 +103,14 @@ export default function Rules(){
                 features. A ball is also out if it comes outside of the antenna.
             </div>
     
-            <div>
+            <div className="marginVertical">
                 <b>15.</b> Any part of the body is allowed for returning the ball as long as it is not holding or rolling
                 over the body and touched only once in any part of the body.
+            </div>
+
+            <div className="marginVertical">
+                <b>16.</b> The teams which have more than 6 players-they MUST substitute the extra player at the 12th point when
+                the teams are changing the court side. This ensures participation of everyone in the community. 
             </div>
           
             <div className="boldFont marginVertical">
