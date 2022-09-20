@@ -7,29 +7,29 @@ export default function WelcomePage() {
         <Carousel.Item>
             <img
               className="d-block w-100"
-              src={process.env.PUBLIC_URL + "/images/sponsors-2022/0.jpg"}
+              src={process.env.PUBLIC_URL + "/images/sponsors-2022/tavares.png"}
               
               alt="First slide"
             />
 
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Welcome to Austin Volleyball!</p>
+            {/* <h3 style={{"color":"black"}}>Tavares Pharmacy</h3> */}
+            {/* <p style={{"color":"black"}}>Our honorable sponsor for 2022 tournament!</p> */}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={process.env.PUBLIC_URL + "/images/sponsors-2022/wasi.jpg"}
             alt="Second slide"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            {/* <h3 style={{"color":"black"}}>Wasi Ahmed</h3> */}
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
             src="holder.js/800x400?text=Third slide&bg=20232a"
@@ -42,7 +42,7 @@ export default function WelcomePage() {
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     </div>
     
