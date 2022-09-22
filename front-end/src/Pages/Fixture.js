@@ -282,17 +282,7 @@ export default function Fixture() {
                     <td style={{"textAlign":"center"}}>9:30am-9:55am</td>
                 </tr>
                 <tr>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 9:55am - 10:30 am
-                        </div>
-                    </td>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 9:55am - 10:30 am
-                        </div>
-                    </td>
-                    <td>
+                    <td colSpan={3}>
                         <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
                             Break from 9:55am - 10:30 am
                         </div>
@@ -318,17 +308,7 @@ export default function Fixture() {
                     <td style={{"textAlign":"center"}}>9:30am-9:55am</td>
                 </tr>
                 <tr>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 9:55am - 10:30 am
-                        </div>
-                    </td>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 9:55am - 10:30 am
-                        </div>
-                    </td>
-                    <td>
+                    <td colSpan={3}>
                         <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
                             Break from 9:55am - 10:30 am
                         </div>
@@ -389,27 +369,7 @@ export default function Fixture() {
                     <td style={{"textAlign":"center"}}>3pm - 3:25 pm</td>
                 </tr>
                 <tr>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 3 pm-4:30 pm
-                        </div>
-                    </td>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 3 pm-4:30 pm
-                        </div>
-                    </td>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 3 pm-4:30 pm
-                        </div>
-                    </td>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 3 pm-4:30 pm
-                        </div>
-                    </td>
-                    <td>
+                    <td colSpan={5}>
                         <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
                             Break from 3 pm-4:30 pm
                         </div>
@@ -458,27 +418,7 @@ export default function Fixture() {
                     <td style={{"textAlign":"center"}}>5:00pm - 5:25 pm</td>
                 </tr>
                 <tr>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 5:25pm - 6 pm
-                        </div>
-                    </td>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 5:25pm - 6 pm
-                        </div>
-                    </td>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 5:25pm - 6 pm
-                        </div>
-                    </td>
-                    <td>
-                        <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 5:25pm - 6 pm
-                        </div>
-                    </td>
-                    <td>
+                    <td colSpan={5}>
                         <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
                             Break from 5:25pm - 6 pm
                         </div>
@@ -493,6 +433,9 @@ export default function Fixture() {
                 </tr>
             </tbody>
         </Table>
+        <h1 style={{"display":"flex","justifyContent":"center"}}>
+            Prize distribution: 6:30pm - 9 pm
+        </h1>
     </div>
   );
 }
