@@ -13,8 +13,11 @@ export default function NavBar(props) {
           <Nav className="alignNavbarRight">
             <Nav.Link href="#Announcements">Announcements</Nav.Link>
             <NavDropdown title="Tournament" id="collasible-nav-dropdown">
-              <NavDropdown.Item onClick={props.assignSchedulePage}>
-                Schedule
+              <NavDropdown.Item onClick={props.showRulesPage}>
+                Rules
+              </NavDropdown.Item>
+              <NavDropdown.Item onClick={props.showFixturePage}>
+                Fixture
               </NavDropdown.Item>
               <NavDropdown.Item onClick={props.showPlayersPage}>
                 Players
