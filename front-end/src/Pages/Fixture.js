@@ -1,4 +1,5 @@
 import Table from 'react-bootstrap/Table';
+// import ResponsiveExample from './Tables';
 
 export default function Fixture() {
   return (
@@ -9,7 +10,8 @@ export default function Fixture() {
         <div style={{"display":"flex", "justifyContent":"space-between", "margin":"30px"}}>
             <div>
 
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive="sm" striped bordered hover variant='dark' className='tableStyle'>
+
                     <tbody>
                         <tr>
                             <td>T1</td>
@@ -21,7 +23,7 @@ export default function Fixture() {
                 </Table>
             </div>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                         <td>T5</td>
@@ -33,7 +35,7 @@ export default function Fixture() {
                 </Table>
             </div>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                         <td>T9</td>
@@ -45,7 +47,7 @@ export default function Fixture() {
                 </Table>
             </div>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                         <td>T13</td>
@@ -57,13 +59,15 @@ export default function Fixture() {
                 </Table>
             </div>
         </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                League Day 1: Austin Sports Center,  <a href='https://goo.gl/maps/qN29YFPAnXLf5zh69'> 425 Woodward St</a>
-        </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                Reporting time: 8:30 am  
-        </div>
-        <Table striped bordered hover variant='dark' className='tableStyle'>
+        <Table responsive striped bordered hover variant='dark' className='tableStyle'>
+            <thead>
+                    <tr>
+                        <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={7}>League Day 1: Austin Sports Center,  <a href='https://goo.gl/maps/qN29YFPAnXLf5zh69'> 425 Woodward St</a></th>
+                    </tr>   
+                    <tr>
+                        <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={7}>Reporting time: 8:30 am</th>
+                    </tr>    
+            </thead>
             <tbody>
                 <tr>
                     <td style={{"textAlign":"center"}}>T1 v T2</td>
@@ -106,13 +110,21 @@ export default function Fixture() {
         <div style={{"display":"flex", "justifyContent":"center"}}>
             <h1>League Day 2: 10/30/2022</h1>
         </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                League Day 2: Round Rock Sports Center, <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
-        </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                Reporting time: 8:30 am  
-        </div>
-        <Table striped bordered hover variant='dark' className='tableStyle'>
+        <Table responsive="sm" striped bordered hover variant='dark' className='tableStyle'>
+            <thead>
+                <tr>
+                    <th 
+                        style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} 
+                        colSpan={7}
+                    >
+                        League Day 2: Round Rock Sports Center, 
+                        <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
+                    </th>
+                </tr>   
+                <tr>
+                    <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={7}>Reporting time: 8:30 am</th>
+                </tr>    
+            </thead>
             <tbody>
                 <tr>
                     <td style={{"textAlign":"center"}}>T9 v T10</td>
@@ -158,7 +170,7 @@ export default function Fixture() {
         
         <div style={{"display":"flex", "justifyContent":"space-evenly", "margin":"30px"}}>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                             <td>X1</td>
@@ -170,7 +182,7 @@ export default function Fixture() {
                 </Table>
             </div>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                             <td>X5</td>
@@ -182,13 +194,21 @@ export default function Fixture() {
                 </Table>
             </div>
         </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                Quarter Finals: Round Rock Sports Center, <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
-        </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                Reporting time: 3 pm
-        </div>
-        <Table striped bordered hover variant='dark' className='tableStyle'>
+        <Table responsive striped bordered hover variant='dark' className='tableStyle'>
+            <thead>
+                <tr>
+                    <th 
+                        style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} 
+                        colSpan={10}
+                    >
+                        Quarter Finals: Round Rock Sports Center, 
+                        <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
+                    </th>
+                </tr>   
+                <tr>
+                    <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={10}>Reporting time: 3 pm</th>
+                </tr>    
+            </thead>
             <tbody>
             <tr>
                     <td style={{"textAlign":"center"}}>X1 v Y1</td>
@@ -242,7 +262,7 @@ export default function Fixture() {
         
         <div style={{"display":"flex", "justifyContent":"space-evenly", "margin":"30px"}}>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                             <td>P1</td>
@@ -253,7 +273,7 @@ export default function Fixture() {
                 </Table>
             </div>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                             <td>Q1</td>
@@ -263,13 +283,21 @@ export default function Fixture() {
                 </Table>
             </div>
         </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                Semi Finals: Round Rock Sports Center, <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
-        </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                Reporting time: 8:30 am
-        </div>
-        <Table striped bordered hover variant='dark' className='tableStyle'>
+        <Table responsive striped bordered hover variant='dark' className='tableStyle'>
+        <thead>
+                <tr>
+                    <th 
+                        style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} 
+                        colSpan={10}
+                    >
+                        Semi Finals: Round Rock Sports Center, 
+                        <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
+                    </th>
+                </tr>   
+                <tr>
+                    <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={10}>Reporting time: 8:30 am</th>
+                </tr>    
+            </thead>
             <tbody>
                 <tr>
                     <td style={{"textAlign":"center"}}>Game 1</td>
@@ -295,7 +323,7 @@ export default function Fixture() {
                 </tr>
             </tbody>
         </Table>
-        <Table striped bordered hover variant='dark' className='tableStyle'>
+        <Table responsive striped bordered hover variant='dark' className='tableStyle'>
             <tbody>
                 <tr>
                     <td style={{"textAlign":"center"}}>Game 1</td>
@@ -326,7 +354,7 @@ export default function Fixture() {
         </div>
         <div style={{"display":"flex", "justifyContent":"space-evenly", "margin":"30px"}}>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                             <td>First Semi Finals Champion</td>
@@ -336,7 +364,7 @@ export default function Fixture() {
                 </Table>
             </div>
             <div>
-                <Table striped bordered hover variant='dark' className='tableStyle'>
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
                             <td>Second Semi Finals Champion</td>
@@ -346,13 +374,21 @@ export default function Fixture() {
                 </Table>
             </div>
         </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                Finals and 3rd/4th place: Round Rock Sports Center, <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
-        </div>
-        <div className='border border-dark' style={{"display":"flex", "justifyContent":"center", "backgroundColor":"yellow","fontWeight":"bolder"}}>
-                Reporting time: 2 pm
-        </div>
-        <Table striped bordered hover variant='dark' className='tableStyle'>
+        <Table responsive striped bordered hover variant='dark' className='tableStyle'>
+            <thead>
+                <tr>
+                    <th 
+                        style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} 
+                        colSpan={10}
+                    >
+                        Finals and 3rd/4th place: Round Rock Sports Center, 
+                        <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
+                    </th>
+                </tr>   
+                <tr>
+                    <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={10}>Reporting time: 2 pm</th>
+                </tr>    
+            </thead>
             <tbody>
                 <tr>
                     <td style={{"textAlign":"center"}}>3rd/4th Place Game 1</td>
@@ -398,10 +434,12 @@ export default function Fixture() {
                 </Table>
             </div>
         </div>
-        <div className='border border-dark' style={{"display":"flex","backgroundColor":"yellow","justifyContent":"center","fontWeight":"bold"}}>
-            Final games
-        </div>
         <Table striped bordered hover variant='dark' className='tableStyle'>
+            <thead> 
+                <tr>
+                    <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={10}>Final games</th>
+                </tr>    
+            </thead>
             <tbody>
                 <tr>
                     <td style={{"display":"flex","justifyContent":"center"}}>Final game 1</td>
