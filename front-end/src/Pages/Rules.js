@@ -222,12 +222,12 @@ export default function Rules(){
 
             <div className="marginVertical">
                 <b>1.</b> Captains hereby solemnly agree to abide by the rules and regulations of the
-                Tournament promise to collect $25 from each player 1 week before the tournament date. 
+                Tournament promise to collect $30 from each player 1 week before the tournament date. 
             </div>
 
             <div className="marginVertical">
                 <b>2.</b> Captains are responsible to bring all the players (plus captain himself) in the field 15
-                minutes before the 9:00AM game time on 10/31/2021. Within 15 minutes of the official start time of the game opponents 
+                minutes before the 8:300AM game time on 10/29/2022. Within 15 minutes of the official start time of the game opponents 
                 will be given a walk-over win; upon absence of the opponent team.
             </div>
 
