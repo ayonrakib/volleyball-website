@@ -21,6 +21,43 @@ export default function Rules(){
             game.
 
             <div className="boldFont marginVertical">
+                Draft:
+            </div>
+            
+            <div className="marginVertical">
+                <b>1.</b>   Each captain will rank the other 15 captains (except himself) starting from Rank 1 (most skillful), 2,3, …,15 
+                (least skillful). An average ranking will develop for each captain out of the ranking numbers assigned. 
+                The lowest average number will be the No. 1 captain and highest average number will be the No. 16 captain. 
+                The ranking process should be extremely confidential, so from the Org Committee, 
+                non captain Tarek will prepare the average ranking. Each captain will send their ranking to Tarek individually and 
+                Tarek will publish only the average ranking to the Captains Group. 
+                Now, for the first round, without lottery, Captain No. 16 will get No 1 pick, Captain 15 will get No. 2 pick, ……., 
+                Captain 1 will get No. 16 pick. 
+
+            </div>
+            
+            <div className="marginVertical">
+                <b>2.</b> In the second round, the traditional snake rule/ reverse order will be followed, i. e., 
+                Captain 1 will automatically get No. 1 pick, Captain 2 will get No. 2 Pick, ………, Captain 16 will get No. 16 pick. 
+
+            </div>
+            
+            <div className="marginVertical">
+                <b>3.</b> Other rounds will follow the regular lottery and the snake/reverse order rule.
+            </div>
+            
+            <div className="marginVertical">
+                <b>4.</b> Games are played to 25 points. There will be no side-out. Each service will constitute a
+            point. Court-swap after reaching 12 points by any team. This is to be fair with light/court
+            orientation advantage/disadvantage.
+            </div>
+    
+            <div className="marginVertical">
+                <b>5.</b> If the score is 24-24 by any case, the deciding factor would be whoever gets to 25 first. This is made to 
+                finish the games within the allotted times from the venue.
+            </div>
+
+            <div className="boldFont marginVertical">
                 Rule of the Game:
             </div>
             
