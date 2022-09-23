@@ -165,7 +165,7 @@ export default function Fixture() {
             </tbody>
         </Table>
         <div style={{"display":"flex", "justifyContent":"center"}}>
-            <h1>Quarter Finals: 11/5/2022</h1>
+            <h1>Second Round: 11/5/2022</h1>
         </div>
         
         <div style={{"display":"flex", "justifyContent":"space-evenly", "margin":"30px"}}>
