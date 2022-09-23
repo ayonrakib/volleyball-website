@@ -178,23 +178,14 @@ export default function Rules(){
             <div className="marginVertical">
                 <b>10.</b> 2 minutes sit-out for spitting anywhere on the court or on the ball.
             </div>
-            
-            <div className="marginVertical">
-                <b>11.</b>  A maximum of 6 players will be allowed to play in the court from each team during any
-                game. If a team consists of 6 players, captains must allow all 6 player to play if they are
-                available. If a team consists of more than 6 players, the captain of that team must allow each player to play 
-                at least two games (by rotation or solely) during the league games. 
-                It is encouraged that the captains should follow the same minimum two-game play rule for each player 
-                during the semi-final and final games.
-            </div>
 
             <div className="marginVertical">
-                <b>12.</b> If a team consists of only 5 players to begin with, 
+                <b>11.</b> If a team consists of only 5 players to begin with, 
                 that team can take a player from the last round of the other group to make the total player to 6, if the team wishes.
             </div>
 
             <div className="marginVertical">
-                <b>13.</b> If the ball touches any other section except within the antennas, it is considered out.
+                <b>12.</b> If the ball touches any other section except within the antennas, it is considered out.
             </div>
 
             <div className="boldFont marginVertical">
