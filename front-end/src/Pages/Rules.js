@@ -151,7 +151,7 @@ export default function Rules(){
             </div>
 
             <div className="marginVertical">
-                <b>17.</b> Captains can submit objections to the referee and referee can further consult the 3 member rule committee if he/she considers. 
+                <b>17.</b> Captains can submit objections to the referee and referee can further consult the 5 member rule committee if he/she considers. 
                 After the consultation, whatever the referee decides will be the final decision.
             </div>
 
