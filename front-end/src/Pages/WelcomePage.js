@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function WelcomePage() {
-  const sponsorsImageNames = ["tavares", "wasi", "selina", "ruvati", "nizam", "nizam", "ibrahim", "hvj", "dash", "zia", "kochi"];
+  const sponsorsImageNames = ["entry", "tavares", "wasi", "selina", "ruvati", "nizam", "nizam","shahi_back", "shahi_front", "hvj", "dash", "zia", "kochi", "eixsys", "utshob", "baga"];
   var sponsorsJSXBlock = [];
 
   for(var index=0; index < sponsorsImageNames.length; index++){
