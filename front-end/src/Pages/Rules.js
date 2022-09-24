@@ -149,6 +149,17 @@ export default function Rules(){
                 <b>16.</b> The teams which have more than 6 players-they MUST substitute the extra player at the 12th point when
                 the teams are changing the court side. This ensures participation of everyone in the community. 
             </div>
+
+            <div className="marginVertical">
+                <b>17.</b> Captains can submit objections to the referee and referee can further consult the 3 member rule committee if he/she considers. 
+                After the consultation, whatever the referee decides will be the final decision.
+            </div>
+
+            <div className="marginVertical">
+                <b>18.</b> Availability date of the players have already been collected from the registration form.
+                If a player wants to change his availability after the draft, it will not be accepted because it
+                is not possible to adjust the rosters after the draft.
+            </div>
           
             <div className="boldFont marginVertical">
             Swap:
