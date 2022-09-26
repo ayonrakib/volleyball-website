@@ -212,47 +212,47 @@ export default function Fixture() {
             <tbody>
             <tr>
                     <td style={{"textAlign":"center"}}>X1 v Y1</td>
-                    <td style={{"textAlign":"center"}}>3pm - 3:55 pm</td>
+                    <td style={{"textAlign":"center"}}>3:30 pm - 3:55 pm</td>
                     <td style={{"textAlign":"center"}}>X1 v Y2</td>
-                    <td style={{"textAlign":"center"}}>4pm - 4:25 pm</td>
-                    <td style={{"fontWeight":"bold"}}>Break from 4:25pm - 5 pm</td>
+                    <td style={{"textAlign":"center"}}>4 pm - 4:25 pm</td>
+                    <td style={{"fontWeight":"bold"}}>Break from 4:25 pm - 5 pm</td>
                     <td style={{"textAlign":"center"}}>X1 v Y3</td>
-                    <td style={{"textAlign":"center"}}>5pm - 5:25pm</td>
+                    <td style={{"textAlign":"center"}}>5 pm - 5:25pm</td>
                     <td style={{"textAlign":"center"}}>X1 v Y4</td>
-                    <td style={{"textAlign":"center"}}>5:30pm - 6pm</td>
+                    <td style={{"textAlign":"center"}}>5:30 pm - 6pm</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>X2 v Y2</td>
-                    <td style={{"textAlign":"center"}}>3pm - 3:55 pm</td>
+                    <td style={{"textAlign":"center"}}>3:30 pm - 3:55 pm</td>
                     <td style={{"textAlign":"center"}}>X2 v Y1</td>
-                    <td style={{"textAlign":"center"}}>4pm - 4:25 pm</td>
+                    <td style={{"textAlign":"center"}}>4 pm - 4:25 pm</td>
                     <td style={{"fontWeight":"bold"}}>Break from 4:25pm - 5 pm</td>
                     <td style={{"textAlign":"center"}}>X2 v Y4</td>
-                    <td style={{"textAlign":"center"}}>5pm - 5:25pm</td>
+                    <td style={{"textAlign":"center"}}>5 pm - 5:25pm</td>
                     <td style={{"textAlign":"center"}}>X2 v Y3</td>
-                    <td style={{"textAlign":"center"}}>5:30pm - 6pm</td>
+                    <td style={{"textAlign":"center"}}>5:30 pm - 6pm</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>X3 v Y3</td>
-                    <td style={{"textAlign":"center"}}>3pm - 3:55 pm</td>
+                    <td style={{"textAlign":"center"}}>3:30 pm - 3:55 pm</td>
                     <td style={{"textAlign":"center"}}>X3 v Y4</td>
-                    <td style={{"textAlign":"center"}}>4pm - 4:25 pm</td>
+                    <td style={{"textAlign":"center"}}>4 pm - 4:25 pm</td>
                     <td style={{"fontWeight":"bold"}}>Break from 4:25pm - 5 pm</td>
                     <td style={{"textAlign":"center"}}>X3 v Y1</td>
-                    <td style={{"textAlign":"center"}}>5pm - 5:25pm</td>
+                    <td style={{"textAlign":"center"}}>5 pm - 5:25pm</td>
                     <td style={{"textAlign":"center"}}>X3 v Y2</td>
-                    <td style={{"textAlign":"center"}}>5:30pm - 6pm</td>
+                    <td style={{"textAlign":"center"}}>5:30 pm - 6pm</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>X4 v Y4</td>
-                    <td style={{"textAlign":"center"}}>3pm - 3:55 pm</td>
+                    <td style={{"textAlign":"center"}}>3:30 pm - 3:55 pm</td>
                     <td style={{"textAlign":"center"}}>X4 v Y3</td>
-                    <td style={{"textAlign":"center"}}>4pm - 4:25 pm</td>
+                    <td style={{"textAlign":"center"}}>4 pm - 4:25 pm</td>
                     <td style={{"fontWeight":"bold"}}>Break from 4:25pm - 5 pm</td>
                     <td style={{"textAlign":"center"}}>X4 v Y2</td>
-                    <td style={{"textAlign":"center"}}>5pm - 5:25pm</td>
+                    <td style={{"textAlign":"center"}}>5 pm - 5:25pm</td>
                     <td style={{"textAlign":"center"}}>X4 v Y1</td>
-                    <td style={{"textAlign":"center"}}> 5:30pm - 6pm</td>
+                    <td style={{"textAlign":"center"}}>5:30 pm - 6pm</td>
                 </tr>
             </tbody>
         </Table>

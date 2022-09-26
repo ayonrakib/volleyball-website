@@ -7,9 +7,9 @@ export default function Teams() {
     <Row xs={1} md={2} className="g-4">
       <Col>
         <TeamComponent  
-            teamName = "Austin Hitters" 
+            teamName = "ATX Hitters" 
             playersName={["Abu Sohel", "Mehedi Khan", "Saymon", "Ibrahim Ahmed", "Fahim Abdullah", "Reza"]}
-            playersImageLocations = {["/images/captains-2022/1.jpg", 
+            playersImageLocations = {["/images/players-2022/1.jpg", 
                                       "/images/players-2022/92.jpg",
                                       "/images/players-2022/93.jpg",
                                       "/images/players-2022/25.jpg",
@@ -20,7 +20,7 @@ export default function Teams() {
 
       <Col>
         <TeamComponent  
-            teamName = "Austin Dynamites" 
+            teamName = "ATX Dynamites" 
             playersName={["Sami", "Oli", "Saiful Islam", "Istiaque Hasan", "Jalal Jahir", "HT Sohel", "Iqbal hussain"]}
             playersImageLocations = {["/images/players-2022/49.jpg", 
                                       "/images/players-2022/80.jpg",
@@ -33,8 +33,8 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Blasters" 
-            playersName={["Rupom", "Shahnewaz", "Jamshed Jalal", "Hasan Chowdhury", "Ezaz Rana", "Mukul"]}
+            teamName = "ATX Blasters" 
+            playersName={["Rupom (Mostaqur)", "Shahnewaz", "Jamshed Jalal", "Hasan Chowdhury", "Ezaz Rana", "Mukul"]}
             playersImageLocations = {["/images/players-2022/28.jpg", 
                                       "/images/players-2022/101.jpg",
                                       "/images/players-2022/79.jpg",
@@ -45,7 +45,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Xhallengers" 
+            teamName = "ATX Challengers" 
             playersName={["Moinul", "Rajib", "Mamun", "Kollol Arefin", "Shaju", "Limon", "Zaayan Islam"]}
             playersImageLocations = {["/images/players-2022/33.jpg", 
                                       "/images/players-2022/31.jpg",
@@ -58,7 +58,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Spikers" 
+            teamName = "ATX Spikers" 
             playersName={["Rezwan", "Arbab", "Mehedi Hasan", "Sabbir Ahmed", "Zarif", "TREX", "Mahmood Hossain"]}
             playersImageLocations = {["/images/players-2022/52.jpg", 
                                       "/images/players-2022/47.jpg",
@@ -71,7 +71,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Wildcats" 
+            teamName = "ATX Wildcats" 
             playersName={["Shaheen", "Liton", "Zayed", "Ruhul Amin", "Obayed", "Golam Morshed"]}
             playersImageLocations = {["/images/players-2022/34.jpg", 
                                       "/images/players-2022/5.jpg",
@@ -83,7 +83,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Twisters" 
+            teamName = "ATX Twisters" 
             playersName={["Shajal", "Baad den", "Jahirul Polash", "Kibriya", "Aman", "Neon", "Hasnat"]}
             playersImageLocations = {["/images/players-2022/24.jpg", 
                                       "/images/players-2022/17.jpg",
@@ -96,7 +96,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Raiders" 
+            teamName = "ATX Raiders" 
             playersName={["Munna", "Raihan", "Shwqat", "Faisal Rashid", "Shahid Zaman", "Shafiul Azm", "Pantho"]}
             playersImageLocations = {["/images/players-2022/12.jpg", 
                                       "/images/players-2022/17.jpg",
@@ -109,7 +109,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Falcons" 
+            teamName = "ATX Falcons" 
             playersName={["Zahedul", "Dip", "Kamrul Russel", "Wasim", "Rumi", "Zahed Aziz", "Shafin"]}
             playersImageLocations = {["/images/players-2022/16.jpg", 
                                       "/images/players-2022/7.jpg",
@@ -122,7 +122,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Blockers" 
+            teamName = "ATX Blockers" 
             playersName={["Rashed", "Samin Ahmed", "Reazul", "Enam Huq", "Mahabub", "Samiul Islam", "Ahsan Islam"]}
             playersImageLocations = {["/images/players-2022/2.jpg", 
                                       "/images/players-2022/7.jpg",
@@ -135,8 +135,8 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Eagles" 
-            playersName={["Mona", "Mridul", "Sohel Rahman", "Afsar Zaman Kochi", "Iqbal Mahmud", "Abu Alam", "Sazal Islam"]}
+            teamName = "ATX Eagles" 
+            playersName={["Mona9Enam Haque)", "Mridul", "Sohel Rahman", "Afsar Zaman Kochi", "Iqbal Mahmud", "Abu Alam", "Sazal Islam"]}
             playersImageLocations = {["/images/players-2022/32.jpg", 
                                       "/images/players-2022/4.jpg",
                                       "/images/players-2022/82.jpg",
@@ -148,7 +148,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Jaguars" 
+            teamName = "ATX Jaguars" 
             playersName={["Manar", "Maher", "Shams", "Mukim Khan", "Anal Saha", "Faisal Mahmood", "Zuberi Ashraf"]}
             playersImageLocations = {["/images/players-2022/9.jpg", 
                                       "/images/players-2022/11.jpg",
@@ -161,7 +161,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Tornadoes" 
+            teamName = "ATX Tornadoes" 
             playersName={["Nafis", "Ayon", "Sumon", "Ehteshum Hoq Liton", "Samin Hossain", "Khan Tarik", "Ali Erteza kHan Tulu"]}
             playersImageLocations = {["/images/players-2022/36.jpg", 
                                       "/images/players-2022/51.jpg",
@@ -174,8 +174,8 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Crushers" 
-            playersName={["Polin", "Ahnaf", "Jashim", "Sabbir Chowdhury", "Khwaja", "Bahar", "Sharif Ahsan"]}
+            teamName = "ATX Crushers" 
+            playersName={["Polin(Badrudduza)", "Ahnaf", "Jashim", "Sabbir Chowdhury", "Khwaja", "Bahar", "Sharif Ahsan"]}
             playersImageLocations = {["/images/players-2022/85.jpg", 
                                       "/images/players-2022/90.jpg",
                                       "/images/players-2022/77.jpg",
@@ -187,7 +187,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Hawks" 
+            teamName = "ATX Hawks" 
             playersName={["Mashu", "Nomaan", "Zulfiqar Ali", "Arshad", "Shadman", "Shammel"]}
             playersImageLocations = {["/images/players-2022/3.jpg", 
                                       "/images/players-2022/103.jpg",
@@ -199,7 +199,7 @@ export default function Teams() {
       </Col>
       <Col>
         <TeamComponent  
-            teamName = "Austin Typhoons" 
+            teamName = "ATX Typhoons" 
             playersName={["Omar", "Noor E Alam", "Zahid Hasan", "Munir Faisal", "Tanjib Rizwan", "Asab"]}
             playersImageLocations = {["/images/players-2022/23.jpg", 
                                       "/images/players-2022/102.jpg",
