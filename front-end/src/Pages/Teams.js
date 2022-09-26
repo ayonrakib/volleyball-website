@@ -136,7 +136,7 @@ export default function Teams() {
       <Col>
         <TeamComponent  
             teamName = "ATX Eagles" 
-            playersName={["Mona9Enam Haque)", "Mridul", "Sohel Rahman", "Afsar Zaman Kochi", "Iqbal Mahmud", "Abu Alam", "Sazal Islam"]}
+            playersName={["Mona(Enam Haque)", "Mridul", "Sohel Rahman", "Afsar Zaman Kochi", "Iqbal Mahmud", "Abu Alam", "Sazal Islam"]}
             playersImageLocations = {["/images/players-2022/32.jpg", 
                                       "/images/players-2022/4.jpg",
                                       "/images/players-2022/82.jpg",
