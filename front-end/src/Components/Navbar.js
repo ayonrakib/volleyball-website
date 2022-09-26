@@ -28,6 +28,9 @@ export default function NavBar(props) {
               <NavDropdown.Item onClick={props.showTeamsPage}>
                 Teams
               </NavDropdown.Item>
+              <NavDropdown.Item onClick={props.showPracticeFixture}>
+                Practice
+              </NavDropdown.Item>
               <NavDropdown.Item>
                 Score
               </NavDropdown.Item>

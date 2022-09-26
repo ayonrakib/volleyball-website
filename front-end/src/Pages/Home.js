@@ -7,6 +7,7 @@ import Players from './Players';
 import Captains from './Captains';
 import Fixture from './Fixture';
 import Teams from './Teams';
+import PracticeFixture from './PracticeFixture';
 
 function reducer(stateDictionary, action){
     switch(action.name){
@@ -29,6 +30,9 @@ function reducer(stateDictionary, action){
         case "showTeams":
             console.log("came inside reducer showTeams!")
             return {...stateDictionary, componentToLoad : action.data.teamsComponent}
+        case "showPracticeFixture":
+            console.log("came inside reducer showPracticeFixture!")
+            return {...stateDictionary, componentToLoad : action.data.practiceFixtureComponent}
         default:
             return;
     }
@@ -67,6 +71,11 @@ export default function Home(){
         dispatch({ name : "showTeams", data : {teamsComponent:<Teams/>}})
     }
 
+    function showPracticeFixture(){
+        console.log("came inside showPracticeFixture method!")
+        dispatch({ name : "showPracticeFixture", data : {practiceFixtureComponent:<PracticeFixture/>}})
+    }
+
     function showWelcomePage(){
         console.log("came inside showWelcomeMessage method!")
         dispatch({ name : "showWelcomeMessage", data : {showWelcomeMessage:<WelcomePage/>}})
@@ -85,6 +94,7 @@ export default function Home(){
                     showCaptainsPage={showCaptainsPage}
                     showFixturePage={showFixturePage}
                     showTeamsPage={showTeamsPage}
+                    showPracticeFixture={showPracticeFixture}
                 />
             </div>
 
