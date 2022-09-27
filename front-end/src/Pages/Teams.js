@@ -48,7 +48,7 @@ export default function Teams() {
             teamName = "ATX Challengers" 
             playersName={["Moinul", "Rajib", "Mamun", "Kollol Arefin", "Shaju", "Limon", "Zaayan Islam"]}
             playersImageLocations = {["/images/players-2022/31.jpg", 
-                                      "/images/players-2022/31.jpg",
+                                      "/images/players-2022/32.jpg",
                                       "/images/players-2022/50.jpg",
                                       "/images/players-2022/105.jpg",
                                       "/images/players-2022/63.jpg",
@@ -100,18 +100,18 @@ export default function Teams() {
             playersName={["Munna", "Raihan", "Shwqat", "Faisal Rashid", "Shahid Zaman", "Shafiul Azm", "Pantho"]}
             playersImageLocations = {["/images/players-2022/12.jpg", 
                                       "/images/players-2022/17.jpg",
-                                      "/images/players-2022/46.jpg",
+                                      "/images/players-2022/47.jpg",
                                       "/images/players-2022/48.jpg",
                                       "/images/players-2022/53.jpg",
                                       "/images/players-2022/73.jpg",
-                                      "/images/players-2022/22.jpg"]}
+                                      "/images/players-2022/203.jpg"]}
           />
       </Col>
       <Col>
         <TeamComponent  
             teamName = "ATX Falcons" 
             playersName={["Zahedul", "Dip", "Kamrul Russel", "Wasim", "Rumi", "Zahed Aziz", "Shafin"]}
-            playersImageLocations = {["/images/players-2022/16.jpg", 
+            playersImageLocations = {["/images/players-2022/150.jpg", 
                                       "/images/players-2022/7.jpg",
                                       "/images/players-2022/74.jpg",
                                       "/images/players-2022/39.jpg",
@@ -128,7 +128,7 @@ export default function Teams() {
                                       "/images/players-2022/7.jpg",
                                       "/images/players-2022/8.jpg",
                                       "/images/players-2022/27.jpg",
-                                      "/images/players-2022/54.jpg",
+                                      "/images/players-2022/506.jpg",
                                       "/images/players-2022/110.jpg",
                                       "/images/players-2022/109.jpg"]}
           />
@@ -153,7 +153,7 @@ export default function Teams() {
             playersImageLocations = {["/images/players-2022/9.jpg", 
                                       "/images/players-2022/11.jpg",
                                       "/images/players-2022/83.jpg",
-                                      "/images/players-2022/72.jpg",
+                                      "/images/players-2022/369.jpg",
                                       "/images/players-2022/91.jpg",
                                       "/images/players-2022/94.jpg",
                                       "/images/players-2022/55.jpg"]}
@@ -193,7 +193,7 @@ export default function Teams() {
                                       "/images/players-2022/103.jpg",
                                       "/images/players-2022/95.jpg",
                                       "/images/players-2022/10.jpg",
-                                      "/images/players-2022/57.jpg",
+                                      "/images/players-2022/693.jpg",
                                       "/images/players-2022/58.jpg"]}
           />
       </Col>
@@ -205,7 +205,7 @@ export default function Teams() {
                                       "/images/players-2022/102.jpg",
                                       "/images/players-2022/104.jpg",
                                       "/images/players-2022/56.jpg",
-                                      "/images/players-2022/57.jpg",
+                                      "/images/players-2022/354.jpg",
                                       "/images/players-2022/21.jpg"]}
           />
       </Col>
