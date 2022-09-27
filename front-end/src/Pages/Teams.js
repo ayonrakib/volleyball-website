@@ -14,7 +14,7 @@ export default function Teams() {
                                       "/images/players-2022/93.jpg",
                                       "/images/players-2022/25.jpg",
                                       "/images/players-2022/26.jpg",
-                                      "/images/players-2022/18.jpg"]}
+                                      "/images/players-2022/188.jpg"]}
           />
       </Col>
 
@@ -65,7 +65,7 @@ export default function Teams() {
                                       "/images/players-2022/41.jpg",
                                       "/images/players-2022/43.jpg",
                                       "/images/players-2022/38.jpg",
-                                      "/images/players-2022/59.jpg",
+                                      "/images/players-2022/18.jpg",
                                       "/images/players-2022/65.jpg"]}
           />
       </Col>
@@ -127,7 +127,7 @@ export default function Teams() {
             playersImageLocations = {["/images/players-2022/2.jpg", 
                                       "/images/players-2022/7.jpg",
                                       "/images/players-2022/8.jpg",
-                                      "/images/players-2022/27.jpg",
+                                      "/images/players-2022/270.jpg",
                                       "/images/players-2022/506.jpg",
                                       "/images/players-2022/110.jpg",
                                       "/images/players-2022/109.jpg"]}
