@@ -1,14 +1,14 @@
 import PlayerCard from '../Components/Card';
-import playersImagesToNames from '../Players/Players-2022';
+import playersIndicesToNames from '../Players/Players-2022';
 
 export default function Players() {
   let playersCardBlock = [];
-  for(var index = 0; index < 111; index++){
+  for(var index = 0; index < 107; index++){
     console.log(`index is ${index}`)
     playersCardBlock.push(
                             <PlayerCard 
                               imageLocation={`/images/players-2022/${index}`} 
-                              playersImage={playersImagesToNames[index]}
+                              playersImage={playersIndicesToNames[index]}
                             />
                          )          
   }

@@ -47,7 +47,7 @@ export default function Teams() {
         <TeamComponent  
             teamName = "ATX Challengers" 
             playersName={["Moinul", "Rajib", "Mamun", "Kollol Arefin", "Shaju", "Limon", "Zaayan Islam"]}
-            playersImageLocations = {["/images/players-2022/33.jpg", 
+            playersImageLocations = {["/images/players-2022/31.jpg", 
                                       "/images/players-2022/31.jpg",
                                       "/images/players-2022/50.jpg",
                                       "/images/players-2022/105.jpg",
@@ -162,14 +162,14 @@ export default function Teams() {
       <Col>
         <TeamComponent  
             teamName = "ATX Tornadoes" 
-            playersName={["Nafis", "Ayon", "Sumon", "Ehteshum Hoq Liton", "Samin Hossain", "Khan Tarik", "Ali Erteza kHan Tulu"]}
+            playersName={["Nafis", "Ayon", "Sumon", "Ehteshum Hoq Liton", "Samin Hossain", "Khan Tarik", "Ali Erteza Khan Tulu"]}
             playersImageLocations = {["/images/players-2022/36.jpg", 
                                       "/images/players-2022/51.jpg",
                                       "/images/players-2022/6.jpg",
                                       "/images/players-2022/97.jpg",
                                       "/images/players-2022/29.jpg",
                                       "/images/players-2022/0.jpg",
-                                      "/images/players-2022/78.jpg"]}
+                                      "/images/players-2022/72.jpg"]}
           />
       </Col>
       <Col>
