@@ -93,7 +93,7 @@ export default function PracticeFixture() {
                     <td style={{"textAlign":"center"}}>10/26/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>1A, 1B</td>
-                    <td style={{"textAlign":"center"}}>Abu Sohel, Munna, Masu, Zahedul, Polin, Nafis</td>
+                    <td style={{"textAlign":"center"}}>Abu Sohel, Munna, Rashed, Zahedul, Polin, Nafis</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>10/27/2022</td>
