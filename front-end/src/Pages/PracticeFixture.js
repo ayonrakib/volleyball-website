@@ -46,7 +46,7 @@ export default function PracticeFixture() {
                     <td style={{"textAlign":"center"}}>Shajal, Polin, Rezwan, Zahedul, Munna, Sami</td>
                 </tr>
                 <tr>
-                    <td style={{"textAlign":"center"}}>10/04/2022</td>
+                    <td style={{"textAlign":"center"}}>10/13/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>5A, 5B</td>
                     <td style={{"textAlign":"center"}}>Abu Sohel, Rupom, Manar, Moinul, Rashed, Mashu</td>
@@ -84,19 +84,19 @@ export default function PracticeFixture() {
                     <td style={{"textAlign":"center"}}>Nafis, Polin, Manar, Shaheen, Abu Sohel, Zahedul</td>
                 </tr>
                 <tr>
-                    <td style={{"textAlign":"center"}}>10/06/2022</td>
+                    <td style={{"textAlign":"center"}}>10/25/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>4A, 4B</td>
                     <td style={{"textAlign":"center"}}>Sami, Rupom, Rezwan, Mona, Moinul, Omar</td>
                 </tr>
                 <tr>
-                    <td style={{"textAlign":"center"}}>10/11/2022</td>
+                    <td style={{"textAlign":"center"}}>10/26/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>1A, 1B</td>
                     <td style={{"textAlign":"center"}}>Abu Sohel, Munna, Masu, Zahedul, Polin, Nafis</td>
                 </tr>
                 <tr>
-                    <td style={{"textAlign":"center"}}>10/04/2022</td>
+                    <td style={{"textAlign":"center"}}>10/27/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>4A, 4B</td>
                     <td style={{"textAlign":"center"}}>Shajal, Mashu, Omar, Moinul, Shaheen, Mona</td>
