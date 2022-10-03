@@ -185,10 +185,10 @@ export default function Fixture() {
                 <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>X5</td>
-                            <td>X6</td>
-                            <td>X7</td>
-                            <td>X8</td>
+                            <td>Y1</td>
+                            <td>Y2</td>
+                            <td>Y3</td>
+                            <td>Y4</td>
                         </tr>
                     </tbody>
                 </Table>

@@ -31,25 +31,25 @@ export default function PracticeFixture() {
                     <td style={{"textAlign":"center"}}>10/04/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>5A, 5B</td>
-                    <td style={{"textAlign":"center"}}>Sami, Munna, Omar, Shaheen</td>
+                    <td style={{"textAlign":"center"}}>Sami, Munna, Omar, Shaheen, Rezwan, Rupom</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>10/06/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>6A, 6B</td>
-                    <td style={{"textAlign":"center"}}>Nafis, Rashed, Mashu, Mona</td>
+                    <td style={{"textAlign":"center"}}>Nafis, Rashed, Mashu, Mona, Shajal, Manar</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>10/11/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>4A, 4B</td>
-                    <td style={{"textAlign":"center"}}>Shajal, Polin, Rezwan, Zahedul</td>
+                    <td style={{"textAlign":"center"}}>Shajal, Polin, Rezwan, Zahedul, Munna, Sami</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>10/04/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>5A, 5B</td>
-                    <td style={{"textAlign":"center"}}>Abu Sohel, Rupom, Manar, Moinul</td>
+                    <td style={{"textAlign":"center"}}>Abu Sohel, Rupom, Manar, Moinul, Rashed, Mashu</td>
                 </tr>
             </tbody>
         </Table>
@@ -81,25 +81,25 @@ export default function PracticeFixture() {
                     <td style={{"textAlign":"center"}}>10/24/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>6A, 6B</td>
-                    <td style={{"textAlign":"center"}}>Nafis, Polin, Manar, Shaheen</td>
+                    <td style={{"textAlign":"center"}}>Nafis, Polin, Manar, Shaheen, Abu Sohel, Zahedul</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>10/06/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>4A, 4B</td>
-                    <td style={{"textAlign":"center"}}>Sami, Rupom, Rezwan, Mona</td>
+                    <td style={{"textAlign":"center"}}>Sami, Rupom, Rezwan, Mona, Moinul, Omar</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>10/11/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>1A, 1B</td>
-                    <td style={{"textAlign":"center"}}>Abu Sohel, Munna, Masu, Zahedul</td>
+                    <td style={{"textAlign":"center"}}>Abu Sohel, Munna, Masu, Zahedul, Polin, Nafis</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>10/04/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>4A, 4B</td>
-                    <td style={{"textAlign":"center"}}>Shajal, Rashed, Omar, Moinul</td>
+                    <td style={{"textAlign":"center"}}>Shajal, Mashu, Omar, Moinul, Shaheen, Mona</td>
                 </tr>
             </tbody>
         </Table>
