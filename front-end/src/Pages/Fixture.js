@@ -1,5 +1,4 @@
 import Table from 'react-bootstrap/Table';
-// import ResponsiveExample from './Tables';
 
 export default function Fixture() {
   return (

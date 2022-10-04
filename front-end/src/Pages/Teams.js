@@ -103,7 +103,7 @@ export default function Teams() {
                                       "/images/players-2022/47.jpg",
                                       "/images/players-2022/48.jpg",
                                       "/images/players-2022/53.jpg",
-                                      "/images/players-2022/73.jpg",
+                                      "/images/players-2022/67.jpg",
                                       "/images/players-2022/203.jpg"]}
           />
       </Col>
@@ -140,7 +140,7 @@ export default function Teams() {
             playersImageLocations = {["/images/players-2022/32.jpg", 
                                       "/images/players-2022/4.jpg",
                                       "/images/players-2022/82.jpg",
-                                      "/images/players-2022/71.jpg",
+                                      "/images/players-2022/65.jpg",
                                       "/images/players-2022/60.jpg",
                                       "/images/players-2022/13.jpg",
                                       "/images/players-2022/107.jpg"]}
