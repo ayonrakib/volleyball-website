@@ -52,12 +52,6 @@ export default function PracticeFixture() {
                     <td style={{"textAlign":"center"}}>Abu Sohel, Rupom, Manar, Moinul, Rashed, Mashu</td>
                 </tr>
                 <tr>
-                    <td style={{"textAlign":"center"}}>10/14/2022</td>
-                    <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
-                    <td style={{"textAlign":"center"}}>6B</td>
-                    <td style={{"textAlign":"center"}}>Moinul, Zahedul, Omar</td>
-                </tr>
-                <tr>
                     <td style={{"textAlign":"center"}}>10/18/2022</td>
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>5A, 5B</td>
@@ -68,6 +62,12 @@ export default function PracticeFixture() {
                     <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
                     <td style={{"textAlign":"center"}}>3B</td>
                     <td style={{"textAlign":"center"}}>Omar, Manar, Moinul</td>
+                </tr>
+                <tr>
+                    <td style={{"textAlign":"center"}}>10/20/2022</td>
+                    <td style={{"textAlign":"center"}}>8 pm - 10 pm</td>
+                    <td style={{"textAlign":"center"}}>4B</td>
+                    <td style={{"textAlign":"center"}}>Moinul, Zahedul, Omar</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>10/21/2022</td>
