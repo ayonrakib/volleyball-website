@@ -2,7 +2,7 @@ import Table from 'react-bootstrap/Table';
 
 export default function Schedule() {
   return (
-    <Table striped bordered hover variant='dark' className='tableStyle'>
+    <Table responsive striped bordered hover variant='dark' className='tableStyle'>
       <thead>
         <tr>
           <th>Event Name</th>

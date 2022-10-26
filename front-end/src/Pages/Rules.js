@@ -146,25 +146,52 @@ export default function Rules(){
             </div>
 
             <div className="marginVertical">
-                <b>16.</b> The teams which have more than 6 players-they MUST substitute the extra player at the 12th point when
-                the teams are changing the court side. This ensures participation of everyone in the community. 
+                <b>Substituition:</b>
+                    <div className="marginVertical">
+                        <b>1.</b> 	
+                            The teams which have more than 6 players, they MUST substitute the extra player at the 
+                            12th point when the teams are changing the court sides. This ensures participation of everyone in the community. 
+                            No substitution allowed at any other time unless there is valid reason during the game such as serious injury and 
+                            unable to play during the game.
+                    </div>
+
+                    <div className="marginVertical">
+                        <b>2.</b> 	
+                            For a valid injury anyone can leave the game regardless of any number of player team. 
+                            Rest is not allowed if your team has less than or equal to 6 players 
+                            (say, 1 already left for injury in a 7-player team). 
+                            Rest is only option for a 7-player team for the 2 players are switching at 12 points.
+                            Say, Rahim and Karim are switching at 12 points. Rahim started the game. 
+                            At first 12th point during the court side change Karim will replace Rahim’s position and 
+                            Rahim will go outside the court.
+                    </div>
+                    <div className="marginVertical">
+                        <b>3.</b>    
+                            Captain can choose to play with 6 players if his 7th player is unable to play 
+                            (of course need a valid reason for being not able to play). 
+                            For a 7-player team, say if 5th pick not able to play for a valid reason, 
+                            then Captain can choose to get a replacement from other team from other group as 
+                            per swap rule described in swap section. Same rule applies for any number of players in the team.
+                    </div>
+                    <div className="marginVertical">
+                        <b>4.</b>
+                            If any player entered not available for a certain date during registration time, 
+                            he can not play on that day even though he is available later on that day.
+                    </div>
+
+                    <div className="marginVertical">
+                        <b>5.</b>
+                            Say your team has 7 players. In the game, your 6th player is serving the ball and opponent gets the 12th point, 
+                            so at this point court side change happens and your 7th player replaces 6th player in the serving position but
+                            he won't get the serve at that point since your 7th player just served in that position. 
+                            However, your 6th player can serve the next time after rotations.
+                    </div>
+                    
             </div>
 
-            <div className="marginVertical">
-                <b>17.</b> Captains can submit objections to the referee and referee can further consult the 5 member rule committee if he/she considers. 
-                After the consultation, whatever the referee decides will be the final decision.
-            </div>
-
-            <div className="marginVertical">
-                <b>18.</b> Availability date of the players have already been collected from the registration form.
-                If a player wants to change his availability after the draft, it will not be accepted because it
-                is not possible to adjust the rosters after the draft.
-            </div>
-          
             <div className="boldFont marginVertical">
             Swap:
             </div>
-          
 
             In case a player does not show up or gets injured, the team could use a substitute player
             (from lesser rank from his round or from a following round) from the other group to make up
@@ -273,6 +300,17 @@ export default function Rules(){
             <div className="marginVertical">
                 <b>3.</b> Captains and players carefully read all the conditions of the tournament and are well
                 aware that the Tournament organizers have the authority to cancel any admission, on the basis of breach of contract.
+            </div>
+
+            <div className="marginVertical">
+                <b>4.</b> Captains can submit objections to the referee and referee can further consult the 5 member rule committee if he/she considers. 
+                After the consultation, whatever the referee decides will be the final decision.
+            </div>
+
+            <div className="marginVertical">
+                <b>5.</b> Availability date of the players have already been collected from the registration form.
+                If a player wants to change his availability after the draft, it will not be accepted because it
+                is not possible to adjust the rosters after the draft.
             </div>
 
             <div className="boldFont marginVertical">

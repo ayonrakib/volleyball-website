@@ -11,8 +11,11 @@ export default function NavBar(props) {
         <Container>
           <Navbar.Brand onClick={props.showWelcomePage}>Austin BD Volleyball</Navbar.Brand>
           <Nav className="alignNavbarRight">
-            <Nav.Link href="#Announcements">Announcements</Nav.Link>
-            <NavDropdown title="Tournament" id="collasible-nav-dropdown">
+            
+            <NavDropdown title="Menu" id="collasible-nav-dropdown" drop='start'>
+              <NavDropdown.Item onClick={props.showRulesPage}>
+                Announcements
+              </NavDropdown.Item>
               <NavDropdown.Item onClick={props.showRulesPage}>
                 Rules
               </NavDropdown.Item>

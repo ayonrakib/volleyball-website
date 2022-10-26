@@ -85,8 +85,8 @@ export default function Home(){
 
     return(
         <div className='pageContainer'>
-            <div>
-                <NavBar 
+            <div className='navbarBlock'>
+                <NavBar
                     assignSchedulePage={assignSchedulePage} 
                     showWelcomePage={showWelcomePage} 
                     showRulesPage={showRulesPage} 
@@ -98,7 +98,7 @@ export default function Home(){
                 />
             </div>
 
-            <div className='componentToShowBlock container'>
+            <div className='componentToShowBlock'>
                 {stateDictionary.componentToLoad}
             </div>
         </div>

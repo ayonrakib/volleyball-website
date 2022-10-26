@@ -26,7 +26,7 @@ export default function Teams() {
                                       "/images/players-2022/80.jpg",
                                       "/images/players-2022/96.jpg",
                                       "/images/players-2022/99.jpg",
-                                      "/images/players-2022/89.jpg",
+                                      "/images/players-2022/82.jpg",
                                       "/images/players-2022/64.jpg",
                                       "/images/players-2022/76.jpg"]}
           />
@@ -139,7 +139,7 @@ export default function Teams() {
             playersName={["Mona(Enam Haque)", "Mridul", "Sohel Rahman", "Afsar Zaman Kochi", "Iqbal Mahmud", "Abu Alam", "Sazal Islam"]}
             playersImageLocations = {["/images/players-2022/32.jpg", 
                                       "/images/players-2022/4.jpg",
-                                      "/images/players-2022/82.jpg",
+                                      "/images/players-2022/820.jpg",
                                       "/images/players-2022/71.jpg",
                                       "/images/players-2022/60.jpg",
                                       "/images/players-2022/13.jpg",
@@ -176,7 +176,7 @@ export default function Teams() {
         <TeamComponent  
             teamName = "ATX Crushers" 
             playersName={["Polin(Badrudduza)", "Ahnaf", "Jashim", "Sabbir Chowdhury", "Khwaja", "Bahar", "Sharif Ahsan"]}
-            playersImageLocations = {["/images/players-2022/85.jpg", 
+            playersImageLocations = {["/images/players-2022/78.jpg", 
                                       "/images/players-2022/90.jpg",
                                       "/images/players-2022/77.jpg",
                                       "/images/players-2022/108.jpg",

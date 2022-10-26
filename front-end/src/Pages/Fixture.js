@@ -59,7 +59,7 @@ export default function Fixture() {
                 </Table>
             </div>
         </div>
-        <Table responsive striped bordered hover variant='dark' className='tableStyle'>
+        <Table responsive striped bordered hover variant='dark'>
             <thead>
                     <tr>
                         <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={7}>League Day 1: Austin Sports Center,  <a href='https://goo.gl/maps/qN29YFPAnXLf5zh69'> 425 Woodward St</a></th>

@@ -11,7 +11,6 @@ function App() {
       <Routes>
       <Route path="/schedule" element={<Schedule />}/>
         <Route path="/" element={<Home />}/>
-        
       </Routes>
     </BrowserRouter>
   );
