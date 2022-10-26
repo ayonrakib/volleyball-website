@@ -148,7 +148,7 @@ export default function Rules(){
             <div className="marginVertical">
                 <b>Substituition:</b>
                     <div className="marginVertical">
-                        <b>1.</b> 	
+                        <b>1. </b> 	
                             The teams which have more than 6 players, they MUST substitute the extra player at the 
                             12th point when the teams are changing the court sides. This ensures participation of everyone in the community. 
                             No substitution allowed at any other time unless there is valid reason during the game such as serious injury and 
@@ -156,7 +156,7 @@ export default function Rules(){
                     </div>
 
                     <div className="marginVertical">
-                        <b>2.</b> 	
+                        <b>2. </b> 	
                             For a valid injury anyone can leave the game regardless of any number of player team. 
                             Rest is not allowed if your team has less than or equal to 6 players 
                             (say, 1 already left for injury in a 7-player team). 
@@ -166,7 +166,7 @@ export default function Rules(){
                             Rahim will go outside the court.
                     </div>
                     <div className="marginVertical">
-                        <b>3.</b>    
+                        <b>3. </b>    
                             Captain can choose to play with 6 players if his 7th player is unable to play 
                             (of course need a valid reason for being not able to play). 
                             For a 7-player team, say if 5th pick not able to play for a valid reason, 
@@ -174,13 +174,13 @@ export default function Rules(){
                             per swap rule described in swap section. Same rule applies for any number of players in the team.
                     </div>
                     <div className="marginVertical">
-                        <b>4.</b>
+                        <b>4. </b>
                             If any player entered not available for a certain date during registration time, 
                             he can not play on that day even though he is available later on that day.
                     </div>
 
                     <div className="marginVertical">
-                        <b>5.</b>
+                        <b>5. </b>
                             Say your team has 7 players. In the game, your 6th player is serving the ball and opponent gets the 12th point, 
                             so at this point court side change happens and your 7th player replaces 6th player in the serving position but
                             he won't get the serve at that point since your 7th player just served in that position. 

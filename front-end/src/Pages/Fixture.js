@@ -402,7 +402,7 @@ export default function Fixture() {
                 <tr>
                     <td colSpan={5}>
                         <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 3 pm-4:30 pm
+                            Break from 3:30 pm-4:30 pm
                         </div>
                     </td>
                 </tr>
