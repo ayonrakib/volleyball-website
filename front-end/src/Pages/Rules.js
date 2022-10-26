@@ -176,7 +176,9 @@ export default function Rules(){
                     <div className="marginVertical">
                         <b>4. </b>
                             If any player entered not available for a certain date during registration time, 
-                            he can not play on that day even though he is available later on that day.
+                            he can not play on that day even though he is available later on that day. 
+                            And no substituition allowed in this case.
+
                     </div>
 
                     <div className="marginVertical">
