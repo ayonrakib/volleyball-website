@@ -1,23 +1,30 @@
 import Table from 'react-bootstrap/Table';
-// import ResponsiveExample from './Tables';
 
 export default function Fixture() {
   return (
-    <div>
+    <div style={{"minWidth":"0"}}>
         <div style={{"display":"flex", "justifyContent":"center"}}>
             <h1>League Day 1: 10/29/2022</h1>
         </div>
-        <div style={{"display":"flex", "justifyContent":"space-between", "margin":"30px"}}>
+        <div>
+            <Table responsive="sm" striped bordered hover variant='dark' className='tableStyle'>
+                <tbody>
+                    <tr>
+                        <td style={{"width":"25%","textAlign":"center"}}>Sohel</td>
+                        <td style={{"width":"25%","textAlign":"center"}}>Shajal</td>
+                        <td style={{"width":"25%","textAlign":"center"}}>Sami</td>
+                        <td style={{"width":"25%","textAlign":"center"}}>Nafis</td>
+                    </tr>
+                </tbody>
+            </Table>
             <div>
-
-                <Table responsive="sm" striped bordered hover variant='dark' className='tableStyle'>
-
+                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>Sohel</td>
-                            <td>Shajal</td>
-                            <td>Sami</td>
-                            <td>Nafis</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Polin</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Rupom</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Rashed</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Munna</td>
                         </tr>
                     </tbody>
                 </Table>
@@ -26,10 +33,10 @@ export default function Fixture() {
                 <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                        <td>Polin</td>
-                        <td>Rupom</td>
-                        <td>Rashed</td>
-                        <td>Munna</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Manar</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Rezwan</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Omar</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Mashu</td>
                         </tr>
                     </tbody>
                 </Table>
@@ -38,22 +45,10 @@ export default function Fixture() {
                 <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                        <td>Manar</td>
-                        <td>Rezwan</td>
-                        <td>Omar</td>
-                        <td>Mashu</td>
-                        </tr>
-                    </tbody>
-                </Table>
-            </div>
-            <div>
-                <Table responsive striped bordered hover variant='dark' className='tableStyle'>
-                    <tbody>
-                        <tr>
-                        <td>Zahedul</td>
-                        <td>Moinul</td>
-                        <td>Mona</td>
-                        <td>Shaheen</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Zahedul</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Moinul</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Mona</td>
+                            <td style={{"width":"25%","textAlign":"center"}}>Shaheen</td>
                         </tr>
                     </tbody>
                 </Table>
@@ -185,10 +180,10 @@ export default function Fixture() {
                 <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>X5</td>
-                            <td>X6</td>
-                            <td>X7</td>
-                            <td>X8</td>
+                            <td>Y1</td>
+                            <td>Y2</td>
+                            <td>Y3</td>
+                            <td>Y4</td>
                         </tr>
                     </tbody>
                 </Table>

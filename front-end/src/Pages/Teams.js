@@ -26,7 +26,7 @@ export default function Teams() {
                                       "/images/players-2022/80.jpg",
                                       "/images/players-2022/96.jpg",
                                       "/images/players-2022/99.jpg",
-                                      "/images/players-2022/82.jpg",
+                                      "/images/players-2022/89.jpg",
                                       "/images/players-2022/64.jpg",
                                       "/images/players-2022/76.jpg"]}
           />
@@ -49,7 +49,7 @@ export default function Teams() {
             playersName={["Moinul", "Rajib", "Mamun", "Kollol Arefin", "Shaju", "Limon", "Zaayan Islam"]}
             playersImageLocations = {["/images/players-2022/31.jpg", 
                                       "/images/players-2022/32.jpg",
-                                      "/images/players-2022/50.jpg",
+                                      "/images/players-2022/45.jpg",
                                       "/images/players-2022/105.jpg",
                                       "/images/players-2022/63.jpg",
                                       "/images/players-2022/67.jpg",
@@ -66,7 +66,7 @@ export default function Teams() {
                                       "/images/players-2022/43.jpg",
                                       "/images/players-2022/38.jpg",
                                       "/images/players-2022/18.jpg",
-                                      "/images/players-2022/65.jpg"]}
+                                      "/images/players-2022/605.jpg"]}
           />
       </Col>
       <Col>
@@ -103,7 +103,7 @@ export default function Teams() {
                                       "/images/players-2022/47.jpg",
                                       "/images/players-2022/48.jpg",
                                       "/images/players-2022/53.jpg",
-                                      "/images/players-2022/73.jpg",
+                                      "/images/players-2022/67.jpg",
                                       "/images/players-2022/203.jpg"]}
           />
       </Col>
@@ -111,13 +111,13 @@ export default function Teams() {
         <TeamComponent  
             teamName = "ATX Falcons" 
             playersName={["Zahedul", "Dip", "Kamrul Russel", "Wasim", "Rumi", "Zahed Aziz", "Shafin"]}
-            playersImageLocations = {["/images/players-2022/150.jpg", 
+            playersImageLocations = {["/images/players-2022/15.jpg", 
                                       "/images/players-2022/7.jpg",
                                       "/images/players-2022/74.jpg",
                                       "/images/players-2022/39.jpg",
                                       "/images/players-2022/44.jpg",
                                       "/images/players-2022/98.jpg",
-                                      "/images/players-2022/45.jpg"]}
+                                      "/images/players-2022/450.jpg"]}
           />
       </Col>
       <Col>
@@ -139,8 +139,8 @@ export default function Teams() {
             playersName={["Mona(Enam Haque)", "Mridul", "Sohel Rahman", "Afsar Zaman Kochi", "Iqbal Mahmud", "Abu Alam", "Sazal Islam"]}
             playersImageLocations = {["/images/players-2022/32.jpg", 
                                       "/images/players-2022/4.jpg",
-                                      "/images/players-2022/820.jpg",
-                                      "/images/players-2022/71.jpg",
+                                      "/images/players-2022/82.jpg",
+                                      "/images/players-2022/65.jpg",
                                       "/images/players-2022/60.jpg",
                                       "/images/players-2022/13.jpg",
                                       "/images/players-2022/107.jpg"]}
@@ -176,7 +176,7 @@ export default function Teams() {
         <TeamComponent  
             teamName = "ATX Crushers" 
             playersName={["Polin(Badrudduza)", "Ahnaf", "Jashim", "Sabbir Chowdhury", "Khwaja", "Bahar", "Sharif Ahsan"]}
-            playersImageLocations = {["/images/players-2022/78.jpg", 
+            playersImageLocations = {["/images/players-2022/85.jpg", 
                                       "/images/players-2022/90.jpg",
                                       "/images/players-2022/77.jpg",
                                       "/images/players-2022/108.jpg",
