@@ -201,8 +201,8 @@ export default function Rules(){
             player was the last pick, then the substitute player for him will be from the last 3 lowest ranked
             pick from the other group. Injured players will be allowed to come back at any time. If a captain
             is not available to play due to an unavoidable reason, the drafted players will select a captain
-            among them. A substitute player cannot be the captain of that team. However, the team can
-            take any available non-captain player from the other group as a substitute for their captain.
+            among them. A substitute player cannot be the captain of that team. However, the captain can
+            take any available non-captain player from the 2nd pick from the other group as a substitute for their captain.
 
             <div className="boldFont marginVertical">
             Violations:
