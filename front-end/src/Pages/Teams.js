@@ -176,7 +176,7 @@ export default function Teams() {
         <TeamComponent  
             teamName = "ATX Crushers" 
             playersName={["Polin(Badrudduza)", "Ahnaf", "Jashim", "Sabbir Chowdhury", "Khwaja", "Bahar", "Sharif Ahsan"]}
-            playersImageLocations = {["/images/players-2022/85.jpg", 
+            playersImageLocations = {["/images/players-2022/78.jpg", 
                                       "/images/players-2022/90.jpg",
                                       "/images/players-2022/77.jpg",
                                       "/images/players-2022/108.jpg",
