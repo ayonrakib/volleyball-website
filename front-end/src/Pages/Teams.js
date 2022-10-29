@@ -35,7 +35,7 @@ export default function Teams() {
         <TeamComponent  
             teamName = "ATX Blasters" 
             playersName={["Rupom (Mostaqur)", "Shahnewaz", "Jamshed Jalal", "Hasan Chowdhury", "Ezaz Rana", "Mukul"]}
-            playersImageLocations = {["/images/players-2022/28.jpg", 
+            playersImageLocations = {["/images/players-2022/27.jpg", 
                                       "/images/players-2022/101.jpg",
                                       "/images/players-2022/79.jpg",
                                       "/images/players-2022/99.jpg",
@@ -50,7 +50,7 @@ export default function Teams() {
             playersImageLocations = {["/images/players-2022/31.jpg",
                                       "/images/players-2022/32.jpg",
                                       "/images/players-2022/45.jpg",
-                                      "/images/players-2022/105.jpg",
+                                      "/images/players-2022/57.jpg",
                                       "/images/players-2022/63.jpg",
                                       "/images/players-2022/607.jpg",
                                       "/images/players-2022/69.jpg"]}
