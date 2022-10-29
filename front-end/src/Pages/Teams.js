@@ -11,7 +11,7 @@ export default function Teams() {
             playersName={["Abu Sohel", "Mehedi Khan", "Saymon", "Ibrahim Ahmed", "Fahim Abdullah", "Reza"]}
             playersImageLocations = {["/images/players-2022/1.jpg", 
                                       "/images/players-2022/92.jpg",
-                                      "/images/players-2022/93.jpg",
+                                      "/images/players-2022/903.jpg",
                                       "/images/players-2022/25.jpg",
                                       "/images/players-2022/26.jpg",
                                       "/images/players-2022/188.jpg"]}
@@ -91,7 +91,7 @@ export default function Teams() {
                                       "/images/players-2022/15.jpg",
                                       "/images/players-2022/62.jpg",
                                       "/images/players-2022/68.jpg",
-                                      "/images/players-2022/42.jpg"]}
+                                      "/images/players-2022/93.jpg"]}
           />
       </Col>
       <Col>
