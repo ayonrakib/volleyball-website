@@ -333,7 +333,7 @@ export default function Score() {
                             <td>Shaheen</td>
                             <td>Rezwan</td>
                             <td>Mona</td>
-                            <td>Rupom</td>
+                            <td>Manar</td>
                         </tr>
                     </tbody>
                 </Table>
