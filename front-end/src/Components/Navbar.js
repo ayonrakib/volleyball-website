@@ -31,10 +31,10 @@ export default function NavBar(props) {
               <NavDropdown.Item onClick={props.showTeamsPage}>
                 Teams
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showPracticeFixture}>
+              <NavDropdown.Item onClick={props.showPracticeFixturePage}>
                 Practice
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={props.showScorePage}>
                 Score
               </NavDropdown.Item>
             </NavDropdown>
