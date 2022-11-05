@@ -268,8 +268,8 @@ export default function Fixture() {
                 <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>P1</td>
-                            <td>P2</td>
+                            <td>Rezwan</td>
+                            <td>Sami</td>
    
                         </tr>
                     </tbody>
@@ -279,8 +279,8 @@ export default function Fixture() {
                 <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>Q1</td>
-                            <td>Q2</td>
+                            <td>Polin</td>
+                            <td>Manar</td>
                         </tr>
                     </tbody>
                 </Table>
@@ -304,12 +304,12 @@ export default function Fixture() {
             <tbody>
                 <tr>
                     <td style={{"textAlign":"center"}}>Game 1</td>
-                    <td style={{"textAlign":"center"}}>P1 v Q2</td>
+                    <td style={{"textAlign":"center"}}>Rezwan v Manar</td>
                     <td style={{"textAlign":"center"}}>9:00am-9:25am</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>Game 2</td>
-                    <td style={{"textAlign":"center"}}>P1 v Q2</td>
+                    <td style={{"textAlign":"center"}}>Rezwan v Manar</td>
                     <td style={{"textAlign":"center"}}>9:30am-9:55am</td>
                 </tr>
                 <tr>
@@ -321,7 +321,7 @@ export default function Fixture() {
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>Game 3</td>
-                    <td style={{"textAlign":"center"}}>P1 v Q2</td>
+                    <td style={{"textAlign":"center"}}>Rezwan v Manar</td>
                     <td style={{"textAlign":"center"}}>10:30am-10:55am</td>
                 </tr>
             </tbody>
@@ -330,12 +330,12 @@ export default function Fixture() {
             <tbody>
                 <tr>
                     <td style={{"textAlign":"center"}}>Game 1</td>
-                    <td style={{"textAlign":"center"}}>P2 v Q1</td>
+                    <td style={{"textAlign":"center"}}>Sami v Polin</td>
                     <td style={{"textAlign":"center"}}>9:00am-9:25am</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>Game 2</td>
-                    <td style={{"textAlign":"center"}}>P2 v Q1</td>
+                    <td style={{"textAlign":"center"}}>Sami v Polin</td>
                     <td style={{"textAlign":"center"}}>9:30am-9:55am</td>
                 </tr>
                 <tr>
@@ -347,7 +347,7 @@ export default function Fixture() {
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>Game 3</td>
-                    <td style={{"textAlign":"center"}}>P2 v Q1</td>
+                    <td style={{"textAlign":"center"}}>Sami v Polin</td>
                     <td style={{"textAlign":"center"}}>10:30am-10:55am</td>
                 </tr>
             </tbody>

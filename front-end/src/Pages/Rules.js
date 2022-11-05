@@ -175,6 +175,12 @@ export default function Rules(){
                     </div>
                     <div className="marginVertical">
                         <b>4. </b>
+                            If any player enters no for a specific day as availability before the draft, the captain can use the
+                            substituition rule of the tournament to replace him for that day only. 
+
+                    </div>
+                    <div className="marginVertical">
+                        <b>5. </b>
                             If any player entered not available for a certain date during registration time, 
                             he can not play on that day even though he is available later on that day. 
                             And no substituition allowed in this case.
@@ -182,7 +188,7 @@ export default function Rules(){
                     </div>
 
                     <div className="marginVertical">
-                        <b>5. </b>
+                        <b>6. </b>
                             Say your team has 7 players. In the game, your 6th player is serving the ball and opponent gets the 12th point, 
                             so at this point court side change happens and your 7th player replaces 6th player in the serving position but
                             he won't get the serve at that point since your 7th player just served in that position. 
