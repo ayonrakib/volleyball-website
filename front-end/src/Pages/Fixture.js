@@ -208,10 +208,10 @@ export default function Fixture() {
             <tr>
                     <td style={{"textAlign":"center"}}>Rupom v Rezwan</td>
                     <td style={{"textAlign":"center"}}>3:00 pm - 3:25 pm</td>
-                    <td style={{"textAlign":"center"}}>Rupom v Shaheen</td>
+                    <td style={{"textAlign":"center"}}>Rupom v Polin</td>
                     <td style={{"textAlign":"center"}}>3:30 pm - 3:55 pm</td>
                     <td style={{"fontWeight":"bold"}}>Break from 3:55 pm - 4:10 pm</td>
-                    <td style={{"textAlign":"center"}}>Rupom v Polin</td>
+                    <td style={{"textAlign":"center"}}>Rupom v Shaheen</td>
                     <td style={{"textAlign":"center"}}>4:15 pm - 4:40pm</td>
                     <td style={{"textAlign":"center"}}>Rupom v Sami</td>
                     <td style={{"textAlign":"center"}}>4:45 pm - 5:10pm</td>
@@ -221,10 +221,10 @@ export default function Fixture() {
                 <tr>
                     <td style={{"textAlign":"center"}}>Mona v Shaheen</td>
                     <td style={{"textAlign":"center"}}>3:00 pm - 3:25 pm</td>
-                    <td style={{"textAlign":"center"}}>Mona v Rezwan</td>
+                    <td style={{"textAlign":"center"}}>Mona v Sami</td>
                     <td style={{"textAlign":"center"}}>3:30 pm - 3:55 pm</td>
                     <td style={{"fontWeight":"bold"}}>Break from 3:55 pm - 4:10 pm</td>
-                    <td style={{"textAlign":"center"}}>Mona v Sami</td>
+                    <td style={{"textAlign":"center"}}>Mona v Rezwan</td>
                     <td style={{"textAlign":"center"}}>4:15 pm - 4:40pm</td>
                     <td style={{"textAlign":"center"}}>Mona v Polin</td>
                     <td style={{"textAlign":"center"}}>4:45 pm - 5:10pm</td>
@@ -234,10 +234,10 @@ export default function Fixture() {
                 <tr>
                     <td style={{"textAlign":"center"}}>Shajal v Polin</td>
                     <td style={{"textAlign":"center"}}>3:00 pm - 3:25 pm</td>
-                    <td style={{"textAlign":"center"}}>Shajal v Sami</td>
+                    <td style={{"textAlign":"center"}}>Shajal v Rezwan</td>
                     <td style={{"textAlign":"center"}}>3:30 pm - 3:55 pm</td>
                     <td style={{"fontWeight":"bold"}}>Break from 3:55 pm - 4:10 pm</td>
-                    <td style={{"textAlign":"center"}}>Shajal v Rezwan</td>
+                    <td style={{"textAlign":"center"}}>Shajal v Sami</td>
                     <td style={{"textAlign":"center"}}>4:15 pm - 4:40pm</td>
                     <td style={{"textAlign":"center"}}>Shajal v Shaheen</td>
                     <td style={{"textAlign":"center"}}>4:45 pm - 5:10pm</td>
@@ -247,10 +247,10 @@ export default function Fixture() {
                 <tr>
                     <td style={{"textAlign":"center"}}>Manar v Sami</td>
                     <td style={{"textAlign":"center"}}>3:00 pm - 3:25 pm</td>
-                    <td style={{"textAlign":"center"}}>Manar v Polin</td>
+                    <td style={{"textAlign":"center"}}>Manar v Shaheen</td>
                     <td style={{"textAlign":"center"}}>3:30 pm - 3:55 pm</td>
                     <td style={{"fontWeight":"bold"}}>Break from 3:55 pm - 4:10 pm</td>
-                    <td style={{"textAlign":"center"}}>Manar v Shaheen</td>
+                    <td style={{"textAlign":"center"}}>Manar v Polin</td>
                     <td style={{"textAlign":"center"}}>4:15 pm - 4:40pm</td>
                     <td style={{"textAlign":"center"}}>Manar v Rezwan</td>
                     <td style={{"textAlign":"center"}}>4:45 pm - 5:10pm</td>
