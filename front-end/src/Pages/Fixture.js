@@ -360,8 +360,8 @@ export default function Fixture() {
                 <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>First Semi Finals Champion</td>
-                            <td>First Semi Finals Runners Up</td>
+                            <td>Polin</td>
+                            <td>Sami</td>
                         </tr>
                     </tbody>
                 </Table>
@@ -370,8 +370,8 @@ export default function Fixture() {
                 <Table responsive striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>Second Semi Finals Champion</td>
-                            <td>Second Semi Finals Runners Up</td>
+                            <td>Manar</td>
+                            <td>Rezwan</td>
                         </tr>
                     </tbody>
                 </Table>
@@ -395,16 +395,16 @@ export default function Fixture() {
             <tbody>
                 <tr>
                     <td style={{"textAlign":"center"}}>3rd/4th Place Game 1</td>
-                    <td style={{"textAlign":"center"}}>First Semi Runner Up</td>
+                    <td style={{"textAlign":"center"}}>Sami</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
-                    <td style={{"textAlign":"center"}}>Second Semi Runner Up</td>
+                    <td style={{"textAlign":"center"}}>Rezwan</td>
                     <td style={{"textAlign":"center"}}>2:30pm - 2:55 pm</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>3rd/4th Place Game 2</td>
-                    <td style={{"textAlign":"center"}}>First Semi Runner Up</td>
+                    <td style={{"textAlign":"center"}}>Sami</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
-                    <td style={{"textAlign":"center"}}>Second Semi Runner Up</td>
+                    <td style={{"textAlign":"center"}}>Rezwan</td>
                     <td style={{"textAlign":"center"}}>3pm - 3:25 pm</td>
                 </tr>
                 <tr>
@@ -422,7 +422,7 @@ export default function Fixture() {
                 <Table striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>First Semi Finals Champion</td>
+                            <td>Polin</td>
                         </tr>
                     </tbody>
                 </Table>
@@ -431,7 +431,7 @@ export default function Fixture() {
                 <Table striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
                         <tr>
-                            <td>Second Semi Finals Champion</td>
+                            <td>Manar</td>
                         </tr>
                     </tbody>
                 </Table>
@@ -446,16 +446,16 @@ export default function Fixture() {
             <tbody>
                 <tr>
                     <td style={{"display":"flex","justifyContent":"center"}}>Final game 1</td>
-                    <td style={{"textAlign":"center"}}>First Semi Champion</td>
+                    <td style={{"textAlign":"center"}}>Polin</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
-                    <td style={{"textAlign":"center"}}>Second Semi Champion</td>
+                    <td style={{"textAlign":"center"}}>Manar</td>
                     <td style={{"textAlign":"center"}}>4:30pm - 4:55 pm</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>Final game 1</td>
-                    <td style={{"textAlign":"center"}}>First Semi Champion</td>
+                    <td style={{"textAlign":"center"}}>Polin</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
-                    <td style={{"textAlign":"center"}}>Second Semi Champion</td>
+                    <td style={{"textAlign":"center"}}>Manar</td>
                     <td style={{"textAlign":"center"}}>5:00pm - 5:25 pm</td>
                 </tr>
                 <tr>
@@ -467,9 +467,9 @@ export default function Fixture() {
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>Final game 3</td>
-                    <td style={{"textAlign":"center"}}>First Semi Champion</td>
+                    <td style={{"textAlign":"center"}}>Polin</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
-                    <td style={{"textAlign":"center"}}>Second Semi Champion</td>
+                    <td style={{"textAlign":"center"}}>Manar</td>
                     <td style={{"textAlign":"center"}}>6:00pm - 6:25 pm</td>
                 </tr>
             </tbody>
