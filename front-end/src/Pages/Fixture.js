@@ -389,7 +389,7 @@ export default function Fixture() {
                     </th>
                 </tr>   
                 <tr>
-                    <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={10}>Reporting time: 2 pm</th>
+                    <th style={{"backgroundColor":"yellow", "justifyContent":"center","color":"black", "textAlign":"center"}} colSpan={10}>Reporting time: 1:30 pm</th>
                 </tr>    
             </thead>
             <tbody>
@@ -398,19 +398,19 @@ export default function Fixture() {
                     <td style={{"textAlign":"center"}}>Sami</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
                     <td style={{"textAlign":"center"}}>Rezwan</td>
-                    <td style={{"textAlign":"center"}}>2:30pm - 2:55 pm</td>
+                    <td style={{"textAlign":"center"}}>2:00pm - 2:25 pm</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>3rd/4th Place Game 2</td>
                     <td style={{"textAlign":"center"}}>Sami</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
                     <td style={{"textAlign":"center"}}>Rezwan</td>
-                    <td style={{"textAlign":"center"}}>3pm - 3:25 pm</td>
+                    <td style={{"textAlign":"center"}}>2:30pm - 2:55 pm</td>
                 </tr>
                 <tr>
                     <td colSpan={5}>
                         <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 3:30 pm-4:30 pm
+                            Break from 3:00 pm-3:25 pm
                         </div>
                     </td>
                 </tr>
@@ -449,19 +449,19 @@ export default function Fixture() {
                     <td style={{"textAlign":"center"}}>Polin</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
                     <td style={{"textAlign":"center"}}>Manar</td>
-                    <td style={{"textAlign":"center"}}>4:30pm - 4:55 pm</td>
+                    <td style={{"textAlign":"center"}}>3:30pm - 3:55 pm</td>
                 </tr>
                 <tr>
                     <td style={{"textAlign":"center"}}>Final game 1</td>
                     <td style={{"textAlign":"center"}}>Polin</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
                     <td style={{"textAlign":"center"}}>Manar</td>
-                    <td style={{"textAlign":"center"}}>5:00pm - 5:25 pm</td>
+                    <td style={{"textAlign":"center"}}>4:00pm - 4:25 pm</td>
                 </tr>
                 <tr>
                     <td colSpan={5}>
                         <div style={{"display":"flex", "justifyContent":"center","fontWeight":"bold"}}>
-                            Break from 5:25pm - 6 pm
+                            Break from 4:30pm - 4:55 pm
                         </div>
                     </td>
                 </tr>
@@ -470,7 +470,7 @@ export default function Fixture() {
                     <td style={{"textAlign":"center"}}>Polin</td>
                     <td style={{"display":"flex","justifyContent":"center"}}>VS</td>
                     <td style={{"textAlign":"center"}}>Manar</td>
-                    <td style={{"textAlign":"center"}}>6:00pm - 6:25 pm</td>
+                    <td style={{"textAlign":"center"}}>5:00pm - 5:25 pm</td>
                 </tr>
             </tbody>
         </Table>
