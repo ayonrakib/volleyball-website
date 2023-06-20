@@ -1,3 +1,4 @@
+import React = require('react');
 import NavBar from '../Components/Navbar';
 import { useReducer } from 'react';
 import WelcomePage from './WelcomePage';
@@ -10,94 +11,94 @@ import Teams from './Teams';
 import Score from './Score';
 import PracticeFixture from './PracticeFixture';
 
-function reducer(stateDictionary, action){
-    switch(action.name){
+function reducer(stateDictionary, action) {
+    switch (action.name) {
         case "showWelcomeMessage":
-            return {...stateDictionary, componentToLoad : action.data.showWelcomeMessage}
+            return { ...stateDictionary, componentToLoad: action.data.showWelcomeMessage }
         case "showSchedule":
-            return {...stateDictionary, componentToLoad : action.data.scheduleComponent}
+            return { ...stateDictionary, componentToLoad: action.data.scheduleComponent }
         case "showRules":
             console.log("came inside reducer showrules!")
-            return {...stateDictionary, componentToLoad : action.data.rulesComponent}
+            return { ...stateDictionary, componentToLoad: action.data.rulesComponent }
         case "showPlayers":
             console.log("came inside reducer showPlayers!")
-            return {...stateDictionary, componentToLoad : action.data.playersComponent}
+            return { ...stateDictionary, componentToLoad: action.data.playersComponent }
         case "showCaptains":
             console.log("came inside reducer showCaptains!")
-            return {...stateDictionary, componentToLoad : action.data.captainsComponent}
+            return { ...stateDictionary, componentToLoad: action.data.captainsComponent }
         case "showFixture":
             console.log("came inside reducer showFixture!")
-            return {...stateDictionary, componentToLoad : action.data.fixtureComponent}
+            return { ...stateDictionary, componentToLoad: action.data.fixtureComponent }
         case "showTeams":
             console.log("came inside reducer showTeams!")
-            return {...stateDictionary, componentToLoad : action.data.teamsComponent}
+            return { ...stateDictionary, componentToLoad: action.data.teamsComponent }
         case "showPracticeFixture":
             console.log("came inside reducer showPracticeFixture!")
-            return {...stateDictionary, componentToLoad : action.data.practiceFixtureComponent}
+            return { ...stateDictionary, componentToLoad: action.data.practiceFixtureComponent }
         case "showScore":
             console.log("came inside reducer showScore!")
-            return {...stateDictionary, componentToLoad : action.data.scoreComponent}
+            return { ...stateDictionary, componentToLoad: action.data.scoreComponent }
         default:
             return;
     }
 }
 
-export default function Home(){
-    const [stateDictionary, dispatch] = useReducer(reducer, {componentToLoad: <WelcomePage/>} );
+export default function Home() {
+    const [stateDictionary, dispatch] = useReducer(reducer, { componentToLoad: <WelcomePage /> });
 
-    function assignSchedulePage(){
+    function assignSchedulePage() {
         console.log("came inside assignSchedulePage method!")
-        dispatch({ name : "showSchedule", data : {scheduleComponent:<Schedule/>}})
+        dispatch({ name: "showSchedule", data: { scheduleComponent: <Schedule /> } })
     }
 
-    function showRulesPage(){
+    function showRulesPage() {
         console.log("came inside showRulePage method!")
-        dispatch({ name : "showRules", data : {rulesComponent:<Rules/>}})
+        dispatch({ name: "showRules", data: { rulesComponent: <Rules /> } })
     }
 
-    function showPlayersPage(){
+    function showPlayersPage() {
         console.log("came inside showRulePage method!")
-        dispatch({ name : "showPlayers", data : {playersComponent:<Players/>}})
+        dispatch({ name: "showPlayers", data: { playersComponent: <Players /> } })
     }
 
-    function showCaptainsPage(){
+    function showCaptainsPage() {
         console.log("came inside showCaptainsPage method!")
-        dispatch({ name : "showCaptains", data : {captainsComponent:<Captains/>}})
+        dispatch({ name: "showCaptains", data: { captainsComponent: <Captains /> } })
     }
 
-    function showFixturePage(){
+    function showFixturePage() {
         console.log("came inside showFixturePage method!")
-        dispatch({ name : "showFixture", data : {fixtureComponent:<Fixture/>}})
+        dispatch({ name: "showFixture", data: { fixtureComponent: <Fixture /> } })
     }
 
-    function showTeamsPage(){
+    function showTeamsPage() {
         console.log("came inside showTeamsPage method!")
-        dispatch({ name : "showTeams", data : {teamsComponent:<Teams/>}})
+        dispatch({ name: "showTeams", data: { teamsComponent: <Teams /> } })
     }
 
-    function showPracticeFixturePage(){
+    function showPracticeFixturePage() {
         console.log("came inside showPracticeFixturePage method!")
-        dispatch({ name : "showPracticeFixture", data : {practiceFixtureComponent:<PracticeFixture/>}})
+        dispatch({ name: "showPracticeFixture", data: { practiceFixtureComponent: <PracticeFixture /> } })
     }
 
-    function showScorePage(){
+    function showScorePage() {
         console.log("came inside showScorePage method!")
-        dispatch({ name : "showScore", data : {scoreComponent:<Score/>}})
+        dispatch({ name: "showScore", data: { scoreComponent: <Score /> } })
     }
 
-    function showWelcomePage(){
+    function showWelcomePage() {
         console.log("came inside showWelcomeMessage method!")
-        dispatch({ name : "showWelcomeMessage", data : {showWelcomeMessage:<WelcomePage/>}})
+        dispatch({ name: "showWelcomeMessage", data: { showWelcomeMessage: <WelcomePage /> } })
     }
 
 
-    return(
+    return (
         <div className='pageContainer'>
             <div className='navbarBlock'>
                 <NavBar
-                    assignSchedulePage={assignSchedulePage} 
-                    showWelcomePage={showWelcomePage} 
-                    showRulesPage={showRulesPage} 
+                    assignSchedulePage={assignSchedulePage}
+                    showWelcomePage={showWelcomePage}
+                    showRulesPage={showRulesPage}
                     showPlayersPage={showPlayersPage}
                     showCaptainsPage={showCaptainsPage}
                     showFixturePage={showFixturePage}

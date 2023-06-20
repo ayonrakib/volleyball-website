@@ -1,3 +1,4 @@
+import React = require('react');
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -11,7 +12,6 @@ export default function NavBar(props) {
         <Container>
           <Navbar.Brand onClick={props.showWelcomePage}>Austin BD Volleyball</Navbar.Brand>
           <Nav className="alignNavbarRight">
-            
             <NavDropdown title="Menu" id="collasible-nav-dropdown" drop='start'>
               <NavDropdown.Item onClick={props.showRulesPage}>
                 Announcements
