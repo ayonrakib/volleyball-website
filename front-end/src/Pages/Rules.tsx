@@ -1,10 +1,10 @@
-import React = require('react');
+import React from 'react';
 
 export default function Rules() {
     return (
         <div>
             <div className="rulesTitle">
-                2022 Austin-Bangladeshi Volleyball Tournament Rules
+                2023 Austin-Bangladeshi Volleyball Tournament Rules
             </div>
 
 
@@ -27,20 +27,22 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>1.</b>   Each captain will rank the other 15 captains (except himself) starting from Rank 1 (most skillful), 2,3, …,15
-                (least skillful). An average ranking will develop for each captain out of the ranking numbers assigned.
-                The lowest average number will be the No. 1 captain and highest average number will be the No. 16 captain.
+                <b>1.</b>   Each captain will rank the other 19 captains (except himself) starting from Rank 1,2,3,…,19.
+                An average ranking will develop for each captain out of the ranking numbers assigned.
+                The lowest average number will be the No. 1 captain and highest average number will be the No. 20 captain.
                 The ranking process should be extremely confidential, so from the Org Committee,
                 non captain Tarek will prepare the average ranking. Each captain will send their ranking to Tarek individually and
                 Tarek will publish only the average ranking to the Captains Group.
-                Now, for the first round, without lottery, Captain No. 16 will get No 1 pick, Captain 15 will get No. 2 pick, …….,
-                Captain 1 will get No. 16 pick.
+                Now, for the first round, there will be two groups. Group 1 will consist 1-10 captains and group 2 11-20 captains.
+                Group 2 will have the 1st lottery among 1-10 pick and group 1 will have 11-20 picks.
+                The second round-the order will reverse. Group 1 will have the 1st lottery among 1-10 pick and group 2 will have 11-20 picks.
+                From the 3rd round, typical lottery and snake rule will apply.
 
             </div>
 
             <div className="marginVertical">
                 <b>2.</b> In the second round, the traditional snake rule/ reverse order will be followed, i. e.,
-                Captain 1 will automatically get No. 1 pick, Captain 2 will get No. 2 Pick, ………, Captain 16 will get No. 16 pick.
+                Captain 1 will automatically get No. 1 pick, Captain 2 will get No. 2 Pick, ………, Captain 20 will get No. 20 pick.
 
             </div>
 

@@ -1,4 +1,4 @@
-import React = require('react');
+import React from 'react';
 import PlayerCard from '../Components/Card';
 import playersIndicesToNames from '../Players/Players-2022';
 

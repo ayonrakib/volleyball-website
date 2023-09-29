@@ -1,4 +1,4 @@
-import React = require('react');
+import React from 'react';
 import NavBar from '../Components/Navbar';
 import { useReducer } from 'react';
 import WelcomePage from './WelcomePage';

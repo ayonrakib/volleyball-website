@@ -1,4 +1,4 @@
-import React = require('react');
+import React from 'react';
 import Table from 'react-bootstrap/Table';
 import ScoreComponent from "../Components/ScoreComponent";
 import LinesMen from "../Components/LinesMen";

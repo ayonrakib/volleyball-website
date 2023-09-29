@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
 import Schedule from './Pages/Schedule';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React = require('react');
+import React from 'react';
 
 function App() {
 
