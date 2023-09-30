@@ -40,37 +40,33 @@ export default function PracticeFixture() {
                         <td style={{ "textAlign": "center" }}>Shantanu, Munir, Shaheen</td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>10/07/2023 Saturday</td>
+                        <td rowSpan={4} style={{ "textAlign": "center", "verticalAlign":"middle" }}>10/07/2023 Saturday</td>
                         <td style={{ "textAlign": "center" }}>8 am - 9:30 am</td>
                         <td style={{ "textAlign": "center" }}>6A</td>
                         <td style={{ "textAlign": "center" }}>Masu Ahnaf, Munir</td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>10/07/2023 Saturday</td>
                         <td style={{ "textAlign": "center" }}>9:30 am - 11 am</td>
                         <td style={{ "textAlign": "center" }}>6A</td>
                         <td style={{ "textAlign": "center" }}>Rupom, Maher, Polin</td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>10/07/2023 Saturday</td>
                         <td style={{ "textAlign": "center" }}>8 am - 10 am</td>
                         <td style={{ "textAlign": "center" }}>6B</td>
                         <td style={{ "textAlign": "center" }}>Sami, Rashed, Manar</td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>10/07/2023 Saturday</td>
                         <td style={{ "textAlign": "center" }}>10 am - 12 pm</td>
                         <td style={{ "textAlign": "center" }}>6B</td>
                         <td style={{ "textAlign": "center" }}>Moinul, Sabbir, Rezwan</td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>10/10/2023 Tuesday</td>
+                        <td rowSpan={2} style={{ "textAlign": "center", "verticalAlign":"middle" }}>10/10/2023 Tuesday</td>
                         <td style={{ "textAlign": "center" }}>7:30 pm - 9:30 pm</td>
                         <td style={{ "textAlign": "center" }}>6A</td>
                         <td style={{ "textAlign": "center" }}>Masu, Maher, Mona</td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>10/10/2023 Tuesday</td>
                         <td style={{ "textAlign": "center" }}>7:30 pm - 9:30 pm</td>
                         <td style={{ "textAlign": "center" }}>6A, 6B</td>
                         <td style={{ "textAlign": "center" }}>Masu, Maher, Mona, Shantanu, Rajib, Maher</td>
@@ -82,13 +78,12 @@ export default function PracticeFixture() {
                         <td style={{ "textAlign": "center" }}>Samin, Rupom, Sami</td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>10/15/2023 Sunday</td>
+                        <td rowSpan={2} style={{ "textAlign": "center", "verticalAlign":"middle" }}>10/15/2023 Sunday</td>
                         <td style={{ "textAlign": "center" }}>8 am - 10 am</td>
                         <td style={{ "textAlign": "center" }}>4A, 4B</td>
                         <td style={{ "textAlign": "center" }}>Mona, Shaheen, Sabbir, Munir, Rashed, Rajib, Ayon</td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>10/15/2023 Sunday</td>
                         <td style={{ "textAlign": "center" }}>10 am - 12pm</td>
                         <td style={{ "textAlign": "center" }}>4A, 4B</td>
                         <td style={{ "textAlign": "center" }}>Polin, Abu, Ahnaf, Masu, Samin, Rupom, Ayon</td>
@@ -119,6 +114,17 @@ export default function PracticeFixture() {
                     </tr>
                     <tr>
                         <td style={{ "textAlign": "center" }}>10/25/2023 Wednesday</td>
+                        <td style={{ "textAlign": "center" }}>7.30 pm - 9.30 pm</td>
+                        <td style={{ "textAlign": "center" }}>4A, 4B</td>
+                        <td style={{ "textAlign": "center" }}>Shantanu, Rajib, Masu, Abu, Shaheen, Sami</td>
+                    </tr>
+                    <tr>
+                        <td rowSpan={2} style={{ "textAlign": "center", "verticalAlign":"middle" }}>10/26/2023 Wednesday</td>
+                        <td style={{ "textAlign": "center" }}>7.30 pm - 9.30 pm</td>
+                        <td style={{ "textAlign": "center" }}>4A, 4B</td>
+                        <td style={{ "textAlign": "center" }}>Shantanu, Rajib, Masu, Abu, Shaheen, Sami</td>
+                    </tr>
+                    <tr>
                         <td style={{ "textAlign": "center" }}>7.30 pm - 9.30 pm</td>
                         <td style={{ "textAlign": "center" }}>4A, 4B</td>
                         <td style={{ "textAlign": "center" }}>Shantanu, Rajib, Masu, Abu, Shaheen, Sami</td>

@@ -30,7 +30,6 @@ export default function TeamComponent(props) {
                         </Card.Body>
                     </div>
                 </div>
-
             </Card>
         </Col>
     )
