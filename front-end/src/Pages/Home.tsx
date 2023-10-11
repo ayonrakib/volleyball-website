@@ -108,7 +108,7 @@ export default function Home() {
                 />
             </div>
 
-            <div className='componentToShowBlock'>
+            <div className='container'>
                 {stateDictionary.componentToLoad}
             </div>
         </div>

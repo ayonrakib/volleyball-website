@@ -22,7 +22,7 @@ export default function Teams() {
 
         <Col>
           <TeamComponent
-            teamName="ATX Dynamites"
+            teamName="ATX Fusion"
             playersName={["Sami", "Saiful Islam", "SoheL Rahman", "Sumon", "Tuhin", "Bakhtiyar", "Aziz"]}
             playersImageLocations={["/images/players-2022/49.jpg",
               "/images/players-2022/80.jpg",
@@ -35,7 +35,7 @@ export default function Teams() {
         </Col>
         <Col>
           <TeamComponent
-            teamName="ATX Blasters"
+            teamName="ATX Spikers"
             playersName={["Rupom (Mostaqur)", "Rumi", "Russel", "Shamel", "Khwaja", "Raihan", "Zayyan"]}
             playersImageLocations={["/images/players-2022/27.jpg",
               "/images/players-2022/101.jpg",
