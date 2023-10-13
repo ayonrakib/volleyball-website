@@ -94,7 +94,6 @@ export default function Home() {
 
     return (
         <div className='pageContainer'>
-            <div className='navbarBlock'>
                 <NavBar
                     assignSchedulePage={assignSchedulePage}
                     showWelcomePage={showWelcomePage}
@@ -106,7 +105,6 @@ export default function Home() {
                     showPracticeFixturePage={showPracticeFixturePage}
                     showScorePage={showScorePage}
                 />
-            </div>
 
             <div className='container'>
                 {stateDictionary.componentToLoad}

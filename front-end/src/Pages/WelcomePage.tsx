@@ -17,10 +17,8 @@ export default function WelcomePage() {
     )
   }
   return (
-    <div style={{ "display": "flex", "flexDirection": "column", "justifyContent": "center", "alignContent": "center" }}>
       <Carousel>
         {sponsorsJSXBlock}
       </Carousel>
-    </div>
   );
 }
