@@ -4,7 +4,7 @@ export default function Rules() {
     return (
         <div>
             <div className="rulesTitle">
-                2023 Austin-Bangladeshi Volleyball Tournament Rules
+                2023 Austin-Bangladeshi Volleyball Tournament Rules, Version 2
             </div>
 
 
@@ -27,7 +27,7 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>1.</b>   Each captain will rank the other 19 captains (except himself) starting from Rank 1 (most skillful), 2, 3,…, 19 (least skillful). An average ranking will develop for each captain out of the ranking numbers assigned.
+                Each captain will rank the other 19 captains (except himself) starting from Rank 1 (most skillful), 2, 3,…, 19 (least skillful). An average ranking will develop for each captain out of the ranking numbers assigned.
                 
                 The lowest average number will be the No. 1 captain and highest average number will be the No. 20 captain.
                                 
@@ -36,31 +36,11 @@ export default function Rules() {
                 Now, for the first-round and second-round picks, the total 20 captains will be put in two separate buckets: Bucket 1 will consist of No.1 through No. 10 captains (stronger captains) and Bucket 2 will consist of No. 11 through No. 20 captains (weaker captains).
                                 
                 For the first-round picks, Bucket 2 captains will have the lottery for 1-10 picks and Bucket 1 captains will have the lottery for 11-20 picks.
-                              
+                               
                 For the second-round picks, the order will be reversed. Bucket 1 captains will have the lottery for 1-10 picks and Bucket 2 captains will have the lottery for 11-20 picks.
-                
+                                
+                                
                 From the third-round, the typical lottery and snake rule will apply. 
-            </div>
-
-            <div className="marginVertical">
-                <b>2.</b> In the second round, the traditional snake rule/ reverse order will be followed, i. e.,
-                Captain 1 will automatically get No. 1 pick, Captain 2 will get No. 2 Pick, ………, Captain 20 will get No. 20 pick.
-
-            </div>
-
-            <div className="marginVertical">
-                <b>3.</b> Other rounds will follow the regular lottery and the snake/reverse order rule.
-            </div>
-
-            <div className="marginVertical">
-                <b>4.</b> Games are played to 25 points. There will be no side-out. Each service will constitute a
-                point. Court-swap after reaching 12 points by any team. This is to be fair with light/court
-                orientation advantage/disadvantage.
-            </div>
-
-            <div className="marginVertical">
-                <b>5.</b> If the score is 24-24 by any case, the deciding factor would be whoever gets to 25 first. This is made to
-                finish the games within the allotted times from the venue.
             </div>
 
             <div className="boldFont marginVertical">
@@ -88,21 +68,19 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>5.</b> If the score is 24-24 by any case, the deciding factor would be whoever gets to 25 first. This is made to
+                <b>5.</b> If the score is 24-24 or 14-14 by any case, the deciding factor would be whoever gets to 25 or 15 first, respectively. This is made to
                 finish the games within the allotted times from the venue.
             </div>
 
             <div className="marginVertical">
-                <b>6.</b> During league games, the two semifinalist from each group will be determined based on
-                the highest number of games won by each team.
-                If two or more teams end up winning the same number of games, then team having more point difference i.e.,
-                points scored minus points against, moves to the semifinal .
-                For example, if the scores for Team A are: 25-21, 25- 20, 25-10, 24-25, 23-25, and 15-25;
-                and the scores for Team B are: 25-20, 25-19, 25-19, 20- 25, 24-25, and 20-25;
-                then the sum of point difference for Team A is 11 (=4+5+15-1-2-10) and
-                the sum of point difference for Team B is 6 (=5+6+6-5-1-5).
-                Based on this example, Team A will go to the semifinal.
-                If the point difference also becomes equal, then the teams won in head to head games within the group will move to the semifinal.
+                <b>6.</b> DAfter the first-round games, four teams from each group will advance to the second round and after the second-round games two teams from each group will advance to the semi-final. 
+                The second-round teams and the semi-finalists will be determined based on the highest number of games won by each team. 
+                If two or more teams end up winning the same number of games, then the team having more point difference i.e., 
+                points scored minus points against, moves to the semifinal. For example, if the scores for Team A are: 
+                25-21, 25- 20, 25-10, 24-25, 23-25, and 15-25; and the scores for Team B are: 25-20, 25-19, 25-19, 20- 25, 24-25, and 20-25; 
+                then the sum of point difference for Team A is 11 (=4+5+15-1-2-10) and the sum of point difference for Team B is 6 (=5+6+6-5-1-5). 
+                Based on this example, Team A will go to the next round. If the point difference also becomes equal, 
+                then a 15-point game will be played between the two teams and the winner will move to the next round.
             </div>
 
             <div className="marginVertical">
@@ -139,7 +117,7 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>13.</b>  A 3 member’s rule committee will provide further clarification to referee if need be and
+                <b>13.</b>  A five-member rule committee will provide further clarification to referees if need be and
                 their decision will be final.
             </div>
 
@@ -186,42 +164,25 @@ export default function Rules() {
 
                 <div className="marginVertical">
                     <b>2. </b>
-                    For a valid injury anyone can leave the game regardless of any number of player team.
-                    Rest is not allowed if your team has less than or equal to 6 players
-                    (say, 1 already left for injury in a 7-player team).
-                    Rest is only option for a 7-player team for the 2 players are switching at 12 points.
-                    Say, Rahim and Karim are switching at 12 points. Rahim started the game.
-                    At first 12th point during the court side change Karim will replace Rahim’s position and
-                    Rahim will go outside the court.
+                    For a valid injury anyone can leave the game regardless of any number of player teams. 
+                    Rest is not allowed if your team has less than or equal to 6 players (say, 1 already left for injury in a 7-player team). 
+                    Rest is the only option for a 7-player team for the 2 players who are switching at 12 points. 
+                    Say, Rahim and Karim are switching at 12 points. Rahim started the game. 
+                    At the first 12th point during the court side change Karim will replace Rahim’s position and Rahim will go outside the court.
                 </div>
                 <div className="marginVertical">
                     <b>3. </b>
-                    Captain can choose to play with 6 players if his 7th player is unable to play
-                    (of course need a valid reason for being not able to play).
-                    For a 7-player team, say if 5th pick not able to play for a valid reason,
-                    then Captain can choose to get a replacement from other team from other group as
-                    per swap rule described in swap section. Same rule applies for any number of players in the team.
+                    Captain can choose to play with 6 players if his 7th player is unable to play (of course need a valid reason for being not able to play). 
+                    For a 7-player team, say if 5th pick is not able to play for a valid reason, 
+                    then Captain can choose to get a replacement from another team from another group as per swap rule described in swap section. 
+                    Same rule applies for any number of players in the team.
                 </div>
                 <div className="marginVertical">
                     <b>4. </b>
-                    If any player enters no for a specific day as availability before the draft, the captain can use the
-                    substituition rule of the tournament to replace him for that day only.
-
-                </div>
-                <div className="marginVertical">
-                    <b>5. </b>
-                    If any player entered not available for a certain date during registration time,
-                    he can not play on that day even though he is available later on that day.
-                    And no substituition allowed in this case.
-
-                </div>
-
-                <div className="marginVertical">
-                    <b>6. </b>
-                    Say your team has 7 players. In the game, your 6th player is serving the ball and opponent gets the 12th point,
-                    so at this point court side change happens and your 7th player replaces 6th player in the serving position but
-                    he won't get the serve at that point since your 7th player just served in that position.
-                    However, your 6th player can serve the next time after rotations.
+                    Say your team has 7 players. In the game, your 6th player is serving the ball and the opponent gets the 12th point, 
+                    so at this point court side change happens and your 7th player replaces 6th player in the serving position 
+                    but he won't get the serve at that point since your 6th player just served in that position. 
+                    However, your 7th player can serve the next time after rotations.
                 </div>
 
             </div>
@@ -230,14 +191,16 @@ export default function Rules() {
                 Swap:
             </div>
 
-            In case a player does not show up or gets injured, the team could use a substitute player
-            (from lesser rank from his round or from a following round) from the other group to make up
-            for the injured player or the team may choose to play without the injured player. If the injured
-            player was the last pick, then the substitute player for him will be from the last 3 lowest ranked
-            pick from the other group. Injured players will be allowed to come back at any time. If a captain
-            is not available to play due to an unavoidable reason, the drafted players will select a captain
-            among them. A substitute player cannot be the captain of that team. However, the captain can
-            take any available non-captain player from the 2nd pick from the other group as a substitute for their captain's substitute.
+            In case a player does not show up or gets injured, 
+            the team could use a substitute player (from lesser rank from his round or from a following round) 
+            from the other group to make up for the injured player or the team may choose to play without the injured player. 
+            If the injured player was the last pick, then the substitute player for him will be from the last 3 lowest ranked 
+            picks from the other group. Injured players will be allowed to come back at any time. 
+            If a captain is not available to play due to an unavoidable reason, 
+            the drafted players will select a captain among them. 
+            A substitute player cannot be the captain of that team. 
+            However, the team can take any available non-captain player from the 2nd round from the other group as a 
+            substitute for their captain's substitute.
 
             <div className="boldFont marginVertical">
                 Violations:
@@ -257,7 +220,7 @@ export default function Rules() {
 
             <div className="marginVertical">
                 <b>3.</b> Crossing your hand(s) over the net is allowed for blocking only.
-                However, interrupting opposite team’s ball by crossing over the net before 3 touch (by the opposite team) is not
+                However, interrupting the opposite team’s ball by crossing over the net before 3 touch (by the opposite team) is not
                 allowed.
             </div>
 
@@ -326,8 +289,8 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>1.</b> Captains hereby solemnly agree to abide by the rules and regulations of the
-                Tournament promise to collect $30 from each player 1 week before the tournament date.
+                <b>1.</b> Captains hereby solemnly agree to abide by the rules and regulations of the Tournament promise to collect $30 from each player, 
+                except students, one week before the tournament date.
             </div>
 
             <div className="marginVertical">
@@ -341,7 +304,7 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>4.</b> Captains can submit objections to the referee and referee can further consult the 5 member rule committee if he/she considers.
+                <b>4.</b> Captains can submit objections to the referee and referee can further consult the five member rule committee if he/she considers.
                 After the consultation, whatever the referee decides will be the final decision.
             </div>
 

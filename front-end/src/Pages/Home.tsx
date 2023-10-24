@@ -10,6 +10,7 @@ import Fixture from './Fixture';
 import Teams from './Teams';
 import Score from './Score';
 import PracticeFixture from './PracticeFixture';
+import amIAdmin from '../service/adminService';
 
 function reducer(stateDictionary, action) {
     switch (action.name) {
@@ -91,6 +92,8 @@ export default function Home() {
         dispatch({ name: "showWelcomeMessage", data: { showWelcomeMessage: <WelcomePage /> } })
     }
 
+    var isAdmin = amIAdmin();
+    console.log("am i admin: ",isAdmin);
 
     return (
         <div className='pageContainer'>
