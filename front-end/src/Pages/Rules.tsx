@@ -27,17 +27,19 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>1.</b>   Each captain will rank the other 19 captains (except himself) starting from Rank 1,2,3,…,19.
-                An average ranking will develop for each captain out of the ranking numbers assigned.
+                <b>1.</b>   Each captain will rank the other 19 captains (except himself) starting from Rank 1 (most skillful), 2, 3,…, 19 (least skillful). An average ranking will develop for each captain out of the ranking numbers assigned.
+                
                 The lowest average number will be the No. 1 captain and highest average number will be the No. 20 captain.
-                The ranking process should be extremely confidential, so from the Org Committee,
-                non captain Tarek will prepare the average ranking. Each captain will send their ranking to Tarek individually and
-                Tarek will publish only the average ranking to the Captains Group.
-                Now, for the first round, there will be two groups. Group 1 will consist 1-10 captains and group 2 11-20 captains.
-                Group 2 will have the 1st lottery among 1-10 pick and group 1 will have 11-20 picks.
-                The second round-the order will reverse. Group 1 will have the 1st lottery among 1-10 pick and group 2 will have 11-20 picks.
-                From the 3rd round, typical lottery and snake rule will apply.
-
+                                
+                The ranking process should be extremely confidential, so the Org Committee requested Tarek (a non-captain member of the Org Committee), to prepare the average ranking. Each captain will send their ranking to Tarek individually and Tarek will publish only the average ranking to the Captains Group.
+                                
+                Now, for the first-round and second-round picks, the total 20 captains will be put in two separate buckets: Bucket 1 will consist of No.1 through No. 10 captains (stronger captains) and Bucket 2 will consist of No. 11 through No. 20 captains (weaker captains).
+                                
+                For the first-round picks, Bucket 2 captains will have the lottery for 1-10 picks and Bucket 1 captains will have the lottery for 11-20 picks.
+                              
+                For the second-round picks, the order will be reversed. Bucket 1 captains will have the lottery for 1-10 picks and Bucket 2 captains will have the lottery for 11-20 picks.
+                
+                From the third-round, the typical lottery and snake rule will apply. 
             </div>
 
             <div className="marginVertical">
@@ -78,9 +80,11 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>4.</b> Games are played to 25 points. There will be no side-out. Each service will constitute a
-                point. Court-swap after reaching 12 points by any team. This is to be fair with light/court
-                orientation advantage/disadvantage.
+                <b>4.</b> During the first-round and the second-round games, each game will be played to 25 points. 
+                There will be no side-out. Each service will constitute a point. 
+                Court-swap after reaching 12 points by any team. 
+                This is to be fair with light/court orientation advantage/disadvantage. 
+                The semi-finalists and the finalists will play a maximum of three consecutive games at each level with 25 (first game), 25 (second game), and 15 (third game) points. 
             </div>
 
             <div className="marginVertical">
@@ -147,6 +151,27 @@ export default function Rules() {
             <div className="marginVertical">
                 <b>15.</b> Any part of the body is allowed for returning the ball as long as it is not holding or rolling
                 over the body and touched only once in any part of the body.
+            </div>
+
+            <div className="marginVertical">
+                <b>16.</b> If a player entered 'no' as his availability for a particular game day during registration, he can not play on that day even though he is available now for that day. 
+                Please note that the captains made their decisions based on the availability of the players at the registration.
+            </div>
+
+            <div className="marginVertical">
+                <b>17.</b> A player can not play as a substitute player for any other team due to the same reason stated in #16.
+            </div>
+
+            <div className="marginVertical">
+                <b>18.</b> There is an “Attack line” (solid white line) at 10 ft from the net on each side. “Back Row” players behind the line are not allowed to cross the “Attack line” and  Spike/Set/Block. 
+                If the “Back Row” players want to Spike/Set, it must be done from behind the “Attack line”. Touching or crossing the “Attack line” during Spiking/Setting/Blocking is a violation. 
+                It is, however, permissible for a Spiker to land on or cross the “Attack line” after jumping from behind the “Attack line”. 
+                The back row players can return a ball normally (not by spiking/setting/blocking) after crossing the attack line, but strictly following the Rule #8 above.
+            </div>
+
+            <div className="marginVertical">
+                <b>19.</b> Captains have decided to make the carrying/holding rule a bit lenient this year (2023), so the referees will be instructed to become a little bit lenient for carrying/holding cases. 
+                The referee's call will be the final call on this matter.
             </div>
 
             <div className="marginVertical">
@@ -237,33 +262,35 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>4.</b> It is a foul if a player crosses the line below the net and touches any opponent player.
+                <b>4.</b> It is a violation if a player’s foot completely crosses the centerline. However, touching the centerline is allowed.
             </div>
 
             <div className="marginVertical">
-                <b>5.</b> It is also foul if the entire foot of a player crosses the line below the net.
-            </div>
-
-            <div className="marginVertical">
-                <b>6.</b> Court lines are considered “IN”. Any interference of a ball or player from a neighboring
+                <b>5.</b> Court lines are considered “IN”. Any interference of a ball or player from a neighboring
                 court will result in the current play being immediately ruled dead and the point will be replayed.
             </div>
 
             <div className="marginVertical">
-                <b>7.</b> Jewelry is not permitted with the exception of flat wedding bands. Headbands, gloves, and kneepads are permissible.
+                <b>6.</b> Jewelry is not permitted with the exception of flat wedding bands. Headbands, gloves, and kneepads are permissible.
             </div>
 
             <div className="marginVertical">
-                <b>8.</b> 2 points deduction for food or drink on the volleyball courts.
+                <b>7.</b> 2 points deduction for food or drink on the volleyball courts.
             </div>
 
             <div className="marginVertical">
-                <b>9.</b>  Maximum 1 minutes/per-team time-out is allowed for each game.
+                <b>8.</b>  Maximum 1 minutes/per-team time-out is allowed for each game.
                 All players must remain in the court unless/until dismissed by the referee.
             </div>
 
             <div className="marginVertical">
-                <b>10.</b> 2 minutes sit-out for spitting anywhere on the court or on the ball.
+                <b>9.</b> 2 minutes sit-out for spitting anywhere on the court or on the ball.
+            </div>
+
+            <div className="marginVertical">
+                <b>10.</b> If there is any foul from any player to another player (be it same team/opposite team), be it vocal/physical, the five-member rule committee will discuss the issue with the referee. 
+            If the referee attests that the player has committed a physical/oral foul, that player will be expelled from the tournament and he will NOT be able to continue for this year. 
+            The team WILL NOT be able to replace him with any other person.
             </div>
 
             <div className="marginVertical">
@@ -290,7 +317,7 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>3.</b> 16 captains should vote if any situation comes down to play or not to play! Decisions will
+                <b>3.</b> 20 captains should vote if any situation comes down to play or not to play! Decisions will
                 be made by the majority of the votes.
             </div>
 
@@ -304,9 +331,8 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>2.</b> Captains are responsible to bring all the players (plus captain himself) in the field 15
-                minutes before the 8:300AM game time on 10/29/2022. Within 15 minutes of the official start time of the game opponents
-                will be given a walk-over win; upon absence of the opponent team.
+                <b>2.</b> Captains from each group are responsible to bring all the players (plus captain himself) in the field 15 minutes before their respective group’s first game start time (i.e., be at the field by 8:15am for the 8:30 am starting group and by 11;45am for the 12:00 pm starting group).
+                 After 15 minutes of the official start time of the game opponents will be given a walk-over win; upon absence of the opponent team.
             </div>
 
             <div className="marginVertical">

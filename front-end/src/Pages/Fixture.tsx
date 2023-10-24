@@ -2,7 +2,7 @@ import React from 'react';
 import Table from 'react-bootstrap/Table';
 
 export default function Fixture() {
-    const name:string = "Ayon";
+    // const name:string = "Ayon";
     return (
         <div style={{ "minWidth": "0", "marginTop" : "30px" }}>
             <div>
@@ -191,63 +191,125 @@ export default function Fixture() {
             </Table>
 
             <div style={{ "display": "flex", "justifyContent": "center" }}>
-                <h1>League Day 2: 10/30/2022</h1>
+                <h1>League Day 2: 11/4/2023</h1>
             </div>
-            <Table responsive="sm" striped bordered hover variant='dark' className='tableStyle'>
+            <Table responsive striped bordered hover variant='dark'>
                 <thead>
                     <tr>
-                        <th
-                            style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center" }}
-                            colSpan={7}
-                        >
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center" }} colSpan={7}>
                             League Day 2: Round Rock Sports Center,
-                            <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a>
+                            <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a> (Reporting time: 8 am)
                         </th>
                     </tr>
                     <tr>
-                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center" }} colSpan={7}>Reporting time: 8:30 am</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >8:30 am - 8:55 am</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >9:05 am - 9:30 am</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >9:40 am - 10:05 am</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} rowSpan={5}>30 minutes break</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >10:35 am - 11 am</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >11:10 am - 11:35 am</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody style={{"verticalAlign":"middle"}}>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>Manar v Rezwan</td>
-                        <td style={{ "textAlign": "center" }}>9 am - 9:25 am</td>
-                        <td style={{ "textAlign": "center" }}>Manar v Omar</td>
-                        <td style={{ "textAlign": "center" }}>9:30 am - 10 am</td>
-                        <td style={{ "fontWeight": "bold", "textAlign": "center", }}>Break from 10 am - 10:30 am</td>
-                        <td style={{ "textAlign": "center" }}>Manar v Mashu</td>
-                        <td style={{ "textAlign": "center" }}>10:30 am - 11 am</td>
+                        <td style={{ "textAlign": "center" }}>Mona v Munir <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Mona v Sohel <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Mona v Manar <span style={{"fontWeight":"bold"}}>(5A)</span></td>
+                        <td style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "white", "textAlign": "center", "verticalAlign":"middle" }} rowSpan={5}>30 minutes break</td>
+                        <td style={{ "textAlign": "center" }}> <span style={{"fontWeight":"bold"}}></span></td>
+                        <td style={{ "textAlign": "center" }}>Mona v Rajib <span style={{"fontWeight":"bold"}}>(4A)</span></td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>Omar v Mashu</td>
-                        <td style={{ "textAlign": "center" }}>9 am - 9:25 am</td>
-                        <td style={{ "textAlign": "center" }}>Rezwan v Mashu</td>
-                        <td style={{ "textAlign": "center" }}>9:30 am - 10 am</td>
-                        <td style={{ "fontWeight": "bold", "textAlign": "center", }}>Break from 10 am - 10:30 am</td>
-                        <td style={{ "textAlign": "center" }}>Rezwan v Omar</td>
-                        <td style={{ "textAlign": "center" }}>10:30 am - 11 am</td>
+                        <td style={{ "textAlign": "center" }}>Maher vs Shams <span style={{"fontWeight":"bold"}}>(6A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Maher v Rajib <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Maher v Samin <span style={{"fontWeight":"bold"}}>(5B)</span></td>
+                        <td style={{ "textAlign": "center" }}> Sami vs Rajib <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Maher v Sabbir <span style={{"fontWeight":"bold"}}>(4B)</span></td>
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>Zahedul v Moinul</td>
-                        <td style={{ "textAlign": "center" }}>9 am - 9:25 am</td>
-                        <td style={{ "textAlign": "center" }}>Zahedul v Mona</td>
-                        <td style={{ "textAlign": "center" }}>9:30 am - 10 am</td>
-                        <td style={{ "fontWeight": "bold", "textAlign": "center", }}>Break from 10 am - 10:30 am</td>
-                        <td style={{ "textAlign": "center" }}>Zahedul v Shaheen</td>
-                        <td style={{ "textAlign": "center" }}>10:30 am - 11 am</td>
+                        <td style={{ "textAlign": "center" }}> Sabbir vs Samin <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Munir v Sabbir <span style={{"fontWeight":"bold"}}>(5A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Munir v Rajib <span style={{"fontWeight":"bold"}}>(6A)</span></td>
+                        <td style={{ "textAlign": "center" }}> Munir v Sohel <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                        <td style={{ "textAlign": "center" }}> <span style={{"fontWeight":"bold"}}></span></td>
+
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>Mona v Shaheen</td>
-                        <td style={{ "textAlign": "center" }}>9 am - 9:25 am</td>
-                        <td style={{ "textAlign": "center" }}>Moinul v Shaheen</td>
-                        <td style={{ "textAlign": "center" }}>9:30 am - 10 am</td>
-                        <td style={{ "fontWeight": "bold", "textAlign": "center" }}>Break from 10 am - 10:30 am</td>
-                        <td style={{ "textAlign": "center" }}>Moinul v Mona</td>
-                        <td style={{ "textAlign": "center" }}>10:30 am - 11 am</td>
+                        <td style={{ "textAlign": "center" }}>Sami v Manar <span style={{"fontWeight":"bold"}}>(5A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Sami v Samin <span style={{"fontWeight":"bold"}}>(5B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Sami v Sabbir <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Sabbir v Shams <span style={{"fontWeight":"bold"}}>(5B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Sohel v Shams <span style={{"fontWeight":"bold"}}>(5A)</span></td>
+
+                    </tr>
+                    <tr>
+                        <td style={{ "textAlign": "center" }}>Sohel v Samin <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Manar v Shams <span style={{"fontWeight":"bold"}}>(6A)</span></td>
+                        <td style={{ "textAlign": "center" }}></td>
+                        <td style={{ "textAlign": "center" }}>Manar v Shams <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}> <span style={{"fontWeight":"bold"}}></span></td>
+
                     </tr>
                 </tbody>
             </Table>
-            <div style={{ "display": "flex", "justifyContent": "center" }}>
+            <Table responsive striped bordered hover variant='dark'>
+                <thead>
+                    <tr>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center" }} colSpan={7}>
+                            League Day 2: Round Rock Sports Center,
+                            <a href='https://g.page/rrsportscenter?share'> 2400 Chisholm Trail Rd</a> (Reporting time: 11:30 am)
+                        </th>
+                    </tr>
+                    <tr>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >12 pm - 12:25 pm</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >12:35 pm - 1 pm</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >1:10 pm - 1:35 pm</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} rowSpan={5}>30 minutes break</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >2:05 pm - 2:30 pm</th>
+                        <th style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "black", "textAlign": "center", "verticalAlign":"middle" }} >2:40 pm - 3:05 pm</th>
+                    </tr>
+                </thead>
+                <tbody style={{"verticalAlign":"middle"}}>
+                    <tr>
+                        <td style={{ "textAlign": "center" }}>Polin v Shantanu <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Polin v Rupom <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Polin v Rashed <span style={{"fontWeight":"bold"}}>(5A)</span></td>
+                        <td style={{ "backgroundColor": "yellow", "justifyContent": "center", "color": "white", "textAlign": "center", "verticalAlign":"middle" }} rowSpan={5}>25 minutes break</td>
+                        <td style={{ "textAlign": "center" }}> Shantanu vs Rupom <span style={{"fontWeight":"bold"}}></span></td>
+                        <td style={{ "textAlign": "center" }}>Polin v Ayon <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                    </tr>
+                    <tr>
+                        <td style={{ "textAlign": "center" }}>Rezwan v Ahnaf <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Rezwan v Ayon <span style={{"fontWeight":"bold"}}>(4A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Rezwan v Mashu <span style={{"fontWeight":"bold"}}>(5B)</span></td>
+                        <td style={{ "textAlign": "center" }}> Shaheen vs Ayon <span style={{"fontWeight":"bold"}}></span></td>
+                        <td style={{ "textAlign": "center" }}>Rezwan v Moinul <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                    </tr>
+                    <tr>
+                        <td style={{ "textAlign": "center" }}>Shaheen vs Rashed <span style={{"fontWeight":"bold"}}>(5A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Shantanu v Moinul <span style={{"fontWeight":"bold"}}>(6A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Shantanu v Ayon <span style={{"fontWeight":"bold"}}>(6A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Moinul v Ahnaf <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Rupom v Ahnaf <span style={{"fontWeight":"bold"}}>(5B)</span></td>
+                    </tr>
+                    <tr>
+                        <td style={{ "textAlign": "center" }}>Moinul v Mashu <span style={{"fontWeight":"bold"}}>(6A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Shaheen v Mashu <span style={{"fontWeight":"bold"}}>(5A)</span></td>
+                        <td style={{ "textAlign": "center" }}>Shaheen v Moinul <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Rashed v Mashu <span style={{"fontWeight":"bold"}}>(5B)</span></td>
+                        <td style={{ "textAlign": "center" }}></td>
+                    </tr>
+                    <tr>
+                        <td style={{ "textAlign": "center" }}> Rupom v Ayon <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Rashed v Ahnaf <span style={{"fontWeight":"bold"}}>(5B)</span></td>
+                        <td style={{ "textAlign": "center" }}></td>
+                        <td style={{ "textAlign": "center" }}></td>
+                        <td style={{ "textAlign": "center" }}></td>
+                    </tr>
+                </tbody>
+            </Table>
+
+            {/* <div style={{ "display": "flex", "justifyContent": "center" }}>
                 <h1>Second Round: 11/5/2022</h1>
             </div>
 
@@ -561,13 +623,13 @@ export default function Fixture() {
                         <td style={{ "textAlign": "center" }}>5:00pm - 5:25 pm</td>
                     </tr>
                 </tbody>
-            </Table>
-            <h1 style={{ "display": "flex", "justifyContent": "center" }}>
+            </Table> */}
+            {/* <h1 style={{ "display": "flex", "justifyContent": "center" }}>
                 Prize distribution: 6:30pm - 9 pm
             </h1>
         <div className={`${name}`}>
             123
-        </div>
+        </div> */}
         </div>
     );
 }
