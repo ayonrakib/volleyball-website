@@ -243,7 +243,7 @@ export default function Fixture() {
 
                     </tr>
                     <tr>
-                        <td style={{ "textAlign": "center" }}>Sohel v Samin <span style={{"fontWeight":"bold"}}>(4B)</span></td>
+                        <td style={{ "textAlign": "center" }}>Sohel v Rajib <span style={{"fontWeight":"bold"}}>(4B)</span></td>
                         <td style={{ "textAlign": "center" }}>Manar v Shams <span style={{"fontWeight":"bold"}}>(6A)</span></td>
                         <td style={{ "textAlign": "center" }}></td>
                         <td style={{ "textAlign": "center" }}>Manar v Shams <span style={{"fontWeight":"bold"}}>(4B)</span></td>

@@ -73,7 +73,7 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>6.</b> DAfter the first-round games, four teams from each group will advance to the second round and after the second-round games two teams from each group will advance to the semi-final. 
+                <b>6.</b> After the first-round games, four teams from each group will advance to the second round and after the second-round games two teams from each group will advance to the semi-final. 
                 The second-round teams and the semi-finalists will be determined based on the highest number of games won by each team. 
                 If two or more teams end up winning the same number of games, then the team having more point difference i.e., 
                 points scored minus points against, moves to the semifinal. For example, if the scores for Team A are: 
@@ -141,8 +141,8 @@ export default function Rules() {
             </div>
 
             <div className="marginVertical">
-                <b>18.</b> There is an “Attack line” (solid white line) at 10 ft from the net on each side. “Back Row” players behind the line are not allowed to cross the “Attack line” and  Spike/Set/Block. 
-                If the “Back Row” players want to Spike/Set, it must be done from behind the “Attack line”. Touching or crossing the “Attack line” during Spiking/Setting/Blocking is a violation. 
+                <b>18.</b> There is an “Attack line” (solid white line) at 10 ft from the net on each side. “Back Row” players behind the line are not allowed to cross the “Attack line” and  Spike/Block. 
+                If the “Back Row” players want to Spike/Block, it must be done from behind the “Attack line”. Touching or crossing the “Attack line” during Spiking/Blocking is a violation. 
                 It is, however, permissible for a Spiker to land on or cross the “Attack line” after jumping from behind the “Attack line”. 
                 The back row players can return a ball normally (not by spiking/setting/blocking) after crossing the attack line, but strictly following the Rule #8 above.
             </div>
