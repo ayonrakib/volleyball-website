@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
 import NavBar from './Navbar';
-import WelcomePage from './../Pages/WelcomePage';
-import Schedule from './../Pages/Schedule';
-import Rules from './../Pages/Rules';
-import Players from './../Pages/Players';
-import Captains from './../Pages/Captains';
-import Fixture from './../Pages/Fixture';
-import Teams from './../Pages/Teams';
-import Score from './../Pages/Score';
-import PracticeFixture from './../Pages/PracticeFixture';
+
 
 export default function Admin(){
+    useEffect(()=>{
+        let isAdmin:boolean = false;
+        console.log("");
+        if(!isAdmin){
+            navigate("/#");
+          }
+    })
+    const navigate = useNavigate();
+    
+    console.log("came in admin")
+
     return (
         <div>
+        <NavBar/>
             I am admin!
         </div>
     )

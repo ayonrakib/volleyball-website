@@ -2,10 +2,12 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import TeamComponent from '../Components/TeamComponents';
+import NavBar from '../Components/Navbar';
 
 export default function Teams() {
   return (
     <div>
+      <NavBar/>
       <Row xs={1} md={2}>
         <Col>
           <TeamComponent

@@ -1,6 +1,7 @@
 import React from 'react';
 import PlayerCard from "../Components/Card";
 import captainsImagesToNames from "../Players/Captains-2022";
+import NavBar from '../Components/Navbar';
 
 
 export default function Captains() {
@@ -14,7 +15,11 @@ export default function Captains() {
     )
   }
   return (
-    <div style={{ "display": "flex", "flexGrow": "1", "justifyContent": "space-around", "flexFlow": "wrap" }}>
+    // <div style={{ "display": "flex", "flexGrow": "1", "justifyContent": "space-around", "flexFlow": "wrap" }}>
+    //   {captainsCardBlock}
+    // </div>
+    <div>
+      <NavBar/>
       {captainsCardBlock}
     </div>
   );

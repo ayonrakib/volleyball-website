@@ -1,5 +1,6 @@
 import React from 'react';
 import PlayerCard from '../Components/Card';
+import NavBar from '../Components/Navbar';
 import playersIndicesToNames from '../Players/Players-2022';
 
 export default function Players() {
@@ -14,9 +15,13 @@ export default function Players() {
     )
   }
   return (
-    <div style={{ "display": "flex", "flexGrow": "1", "justifyContent": "space-around", "flexFlow": "wrap" }}>
-      {playersCardBlock}
-    </div>
+    <>
+      <NavBar/>
+      <div style={{ "display": "flex", "flexGrow": "1", "justifyContent": "space-around", "flexFlow": "wrap" }}>
+        {playersCardBlock}
+      </div>
+    </>
+
   );
 }
 

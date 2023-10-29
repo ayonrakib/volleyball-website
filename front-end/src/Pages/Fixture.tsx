@@ -1,10 +1,13 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
+import NavBar from '../Components/Navbar';
 
 export default function Fixture() {
     // const name:string = "Ayon";
     return (
-        <div style={{ "minWidth": "0", "marginTop" : "30px" }}>
+        <>
+        <NavBar/>
+        <div className='container' style={{ "minWidth": "0", "marginTop" : "30px" }}>
             <div>
                 <Table responsive="sm" striped bordered hover variant='dark' className='tableStyle'>
                     <tbody>
@@ -631,5 +634,7 @@ export default function Fixture() {
             123
         </div> */}
         </div>
+        </>
+
     );
 }

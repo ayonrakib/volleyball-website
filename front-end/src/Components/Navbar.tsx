@@ -10,31 +10,31 @@ export default function NavBar(props) {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand onClick={props.showWelcomePage}>Austin BD Volleyball</Navbar.Brand>
+          <Navbar.Brand href='/'>Austin BD Volleyball</Navbar.Brand>
           <Nav className="alignNavbarRight">
             <NavDropdown title="Menu" id="collasible-nav-dropdown" drop='start'>
-              <NavDropdown.Item onClick={props.showRulesPage}>
-                Announcements
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showRulesPage}>
+              {/* <NavDropdown.Item href='/admin'>
+                  Admin
+              </NavDropdown.Item> */}
+              <NavDropdown.Item href='/rules'>
                 Rules
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showFixturePage}>
+              <NavDropdown.Item href='/fixture'>
                 Fixture
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showPlayersPage}>
+              <NavDropdown.Item href='/players'>
                 Players
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showCaptainsPage}>
+              {/* <NavDropdown.Item href='/captains'>
                 Captains
-              </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showTeamsPage}>
+              </NavDropdown.Item> */}
+              <NavDropdown.Item href='/teams'>
                 Teams
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showPracticeFixturePage}>
+              <NavDropdown.Item href='/practice'>
                 Practice
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={props.showScorePage}>
+              <NavDropdown.Item href='/score'>
                 Score
               </NavDropdown.Item>
             </NavDropdown>

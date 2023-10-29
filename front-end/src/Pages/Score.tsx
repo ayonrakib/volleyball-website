@@ -2,10 +2,13 @@ import React from 'react';
 import Table from 'react-bootstrap/Table';
 import ScoreComponent from "../Components/ScoreComponent";
 import LinesMen from "../Components/LinesMen";
+import NavBar from '../Components/Navbar';
 
 export default function Score() {
     return (
-        <div style={{ "minWidth": "0", "marginTop": "30px" }}>
+        <>
+            <NavBar/>
+            <div style={{ "minWidth": "0", "marginTop": "30px" }}>
             <h1 style={{ "textAlign": "center" }}>League Games Day 1</h1>
             <ScoreComponent
                 gameTitle="Group 1 Games"
@@ -338,6 +341,8 @@ export default function Score() {
                 </tbody>
             </Table>
         </div>
+        </>
+
 
 
     )

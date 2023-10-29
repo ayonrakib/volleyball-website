@@ -1,8 +1,10 @@
 import React from 'react';
+import NavBar from '../Components/Navbar';
 
 export default function Rules() {
     return (
         <div>
+            <NavBar/>
             <div className="rulesTitle">
                 2023 Austin-Bangladeshi Volleyball Tournament Rules, Version 2
             </div>
